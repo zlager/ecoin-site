@@ -167,7 +167,7 @@
 			<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
 			<script>
 			  jQuery(function () {
-
+				
 				$('form').on('submit', function (e) {
 
 				  e.preventDefault();
@@ -179,17 +179,17 @@
 					success: function (data) {
 					  document.getElementById("trendingCollapse").setAttribute("class", "alt-bordercolor primary-bgcolor collapse");
 					  document.getElementById('content').innerHTML = data;
-					  console.log(data);
+					 // console.log(data);
 					}
 				  });
-
+					
 				});
 
 			  }); 
 			</script>
 			<div class="alt-bordercolor collapse primary-bgcolor" id="trendingCollapse">
 				<form class="searchBar" id="searchHash" style="margin-left: auto; margin-right: auto; width: 300px; height: 50px; margin-top: 15px;">
-				  <input type="text" name="searchvalue" placeholder="Search for Hash" id="searchvalue">
+				  <input type="text" name="searchvalue" placeholder="Search for Hash" id="searchvalue" required>
 				  <input class="submit" name="submit" type="submit" value="Submit">
 				</form>
 			</div>
