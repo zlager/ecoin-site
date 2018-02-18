@@ -1,0 +1,1698 @@
+/*
+Theme Name: admania
+Description: themeoptions css style.
+*/
+
+
+.admania_cdtabs {
+	width: 100%;
+	max-width: 1140px;
+	display: inline-block;
+	margin: 2em auto;
+	text-align: left;/*text-transform: capitalize;*/
+}
+.admania_cdtabs:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.admania_cdtabs::after {
+	/* subtle gradient layer on top right - to indicate it's possible to scroll */
+position: absolute;
+	top: 0;
+	right: 0;
+	height: 60px;
+	width: 50px;
+	z-index: 1;
+	pointer-events: none;
+	background: -webkit-linear-gradient( right, #f8f7ee, rgba(248, 247, 238, 0));
+	background: linear-gradient(to left, #f8f7ee, rgba(248, 247, 238, 0));
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: opacity .3s 0s, visibility 0s 0s;
+	-moz-transition: opacity .3s 0s, visibility 0s 0s;
+	transition: opacity .3s 0s, visibility 0s 0s;
+}
+.no-cssgradients .admania_cdtabs::after {
+	display: none;
+}
+.admania_cdtabs.is-ended::after {
+	/* class added in jQuery - remove the gradient layer when it's no longer possible to scroll */
+visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity .3s 0s, visibility 0s .3s;
+	-moz-transition: opacity .3s 0s, visibility 0s .3s;
+	transition: opacity .3s 0s, visibility 0s .3s;
+}
+.admania_optinosstngslistsbr {
+	    margin: 41px 31px 30px !important;
+}
+.admania_optinosstngslistsbr label {
+	display: inline-block !important;
+	width: 71%;
+}
+
+.admania_cdtabs nav {
+	float: left;
+	background: transparent;
+	box-shadow: none;
+	width:23%;
+}
+.admania_cdtabsnavigation {
+	width: 100%;
+	background-color: #23282d;
+	margin: 0;
+	box-shadow: inset 0 -2px 3px rgba(203, 196, 130, 0.06);
+	background-color: #23282d;
+}
+.admania_cdtabsnavigation:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.admania_cdtabsnavigation li {
+	float: none;
+	margin:0;
+}
+.admania_cdtabsnavigation a:focus.selected {
+	outline:none;
+}
+.admania_cdtabsnavigation a.selected:after {
+	right: -1px;
+	border: solid 9px transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #FAFAFA;
+	top: 50%;
+	margin-top: -8px;
+}
+.admania_welcome {
+	background-color: #221F1E;
+	width: 99.6%;
+}
+.admaniabklogo_image, .admaniabkftrlogo_image, .admaniaadimgtag_image1 img, .admaniaadimgtag_image2 img, .admaniaadimgtag_image3 img, .admaniaadimgtag_image4 img, .admaniaadimgtag_image5 img, .admaniaadimgtag_image6 img, .admaniaadimgtag_image7 img, .admaniaadimgtag_image8 img, .admaniaadimgtag_image10 img, .admaniaadimgtag_image11 img, .admaniaadimgtag_image12 img, .admaniaadimgtag_image13 img, .admaniaadimgtag_image14 img, .admaniaadimgtag_image15 img, .admaniaadimgtag_image16 img, .admaniaadimgtag_image17 img, .admaniaadimgtag_image18 img, .admaniaadimgtag_image19 img, .admaniaadimgtag_image20 img, .admaniaadimgtag_image21 img, .admaniaadimgtag_image22 img, .admaniaadimgtag_image23 img, .admaniapst_imgadupload1 img, .admaniapst_imgadupload2 img, .admaniapst_imgadupload3 img, .admaniapst_imgadupload4 img, .admaniapst_imgadupload5 img, .admaniapst_imgadupload51 img, .admaniapst_imgadupload6 img, .admaniapgepst_imgadupload1 img, .admaniapgepst_imgadupload2 img, .admaniapgepst_imgadupload3 img, .admaniapgepst_imgadupload4 img, .admaniapgepst_imgadupload5 img {
+	display:none;
+	max-width:100%;
+}
+.admania_field_deschk p {
+	float:left;
+}
+.admaniapstb_tabmain .admania_switch, .admaniapgepstb_tabmain .admania_switch {
+	margin: 11px 0 0 28px !important;
+	float: left !important;
+}
+.admania_adsstngsnotes {
+	background: #eee;
+	padding: 12px;
+	display:block;
+}
+.admania_slot1 .admania_txtareaad {
+	margin: 0 0 16px;
+}
+.admania_adalignmentbk {
+	padding: 24px 0 0;
+	display: block;
+}
+#admania_adacordnhash39 .admania_adalignmentbk:first-child {
+	padding: 0px 0 0;
+}
+.admaniathemesupport .admania_optinosstngslist .admania_adaccordion .admania_adalignmentbk label {
+	margin: 0 !important;
+	width: 52% !important;
+	display: inline-block !important;
+}
+.admaniaadimgtag_image1, .admaniaadimgtag_image2, .admaniaadimgtag_image3, .admaniaadimgtag_image4, .admaniaadimgtag_image4, .admaniaadimgtag_image5, .admaniaadimgtag_image6, .admaniaadimgtag_image7, .admaniaadimgtag_image8, .admaniaadimgtag_image10, .admaniaadimgtag_image11, .admaniaadimgtag_image12, .admaniaadimgtag_image13, .admaniaadimgtag_image14, .admaniaadimgtag_image15, .admaniaadimgtag_image16, .admaniaadimgtag_image17, .admaniaadimgtag_image18, .admaniaadimgtag_image19, .admaniaadimgtag_image20, .admaniaadimgtag_image21, .admaniaadimgtag_image22, .admaniaadimgtag_image23, .admaniapst_imgadupload1, .admaniapst_imgadupload2, .admaniapst_imgadupload3, .admaniapst_imgadupload4, .admaniapst_imgadupload5, .admaniapst_imgadupload51, .admaniapst_imgadupload6, .admaniapgepst_imgadupload1, .admaniapgepst_imgadupload2, .admaniapgepst_imgadupload3, .admaniapgepst_imgadupload4, .admaniapgepst_imgadupload5 {
+	margin: 10px 0;
+	display:block;
+}
+.admania_welcome .admania_col1 p {
+	font-size: 17px;
+	font-weight: normal;
+}
+.admania_welcome .admania_col1 {
+	display: inline-block;
+	padding: 30px 44px 26px;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	width: 21%;
+	color: #fff !important;
+}
+.admania_welcome .colver1 {
+	background: #292828;
+}
+.admania_welcome .admania_col1 .fa {
+	padding: 5px 0px 0 0;
+	color: #ddd;
+	font-size: 20px;
+}
+.admania_cdtabscontent h2 {
+	float: left;
+}
+.admania_cdtabsnavigation a {
+	text-decoration: none;
+	width: auto;
+	height: auto;
+	text-align: left;
+	display: block;
+	font-size: 14px !important;
+	position: relative;
+	border-bottom: 1px solid #3E3B3B;
+	color: #E8E2E2;
+	font-size: 0.875rem;
+	padding: 1.5em;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.no-touch .admania_cdtabsnavigation a:hover {
+	color: #fff;
+	background-color: #0073aa !important;
+}
+.admania_cdtabsnavigation a.selected {
+	background-color: #0073aa !important;
+	outline:none;
+}
+.admania_cdtabsnavigation a:focus {
+	outline:none;
+}
+.admania_optionsetngitem h3 {
+	margin: 0 0 0px;
+	padding: 8px 15px 0;
+	top: -18px;
+	left: 20px;
+	font-size: 16px;
+	background: #fff;
+	position: relative;
+	display: inline-block;
+}
+.admania_cdtabscontent {
+	min-height: 0;
+	margin: 0;
+	height: auto !important;
+	background: #fcfcfc;
+	padding: 20px 20px 20px;
+	width: 72.8%;
+	border: 1px solid #e5e5e5;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	float: left;
+}
+.admania_rldpstcnt {
+	float:right;
+}
+.admania_cdtabscontent li {
+	display: none;
+}
+.admania_optionsetngitem label {
+	display:block;
+	margin: 15px 0;
+}
+.admania_optionsinneritem textarea {
+	width: 100%;
+	padding: 13px;
+}
+.admania_cdtabscontent .button, .admania_cdtabscontent .button-secondary {
+	background: #00a0d2;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5), 0 1px 0 rgba(0,0,0,.15);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.5), 0 1px 0 rgba(0,0,0,.15);
+	color: #fff;
+	text-decoration: none;
+}
+.savechange_btn {
+	float: right;
+	margin: 0px 0 0 0;
+	position: relative;
+	top: 10px;
+}
+.admania_cdtabscontent .admania_pannelsettings .section_clear label {
+	display: block !important;
+}
+.rest_btn {
+	position: relative;
+	width: 224px;
+	float: left;
+	top: -77px;
+	left: 262px;
+}
+.admania_removespace {
+	padding:15px 0;
+	width: 60%;
+}
+.admania_cdtabscontent .admania_removespace label {
+	margin: 0px 0 5px !important;
+}
+.admaniathemesupport .iris-border {
+	z-index:9999;
+}
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover, .wp-core-ui .button-secondary.focus, .wp-core-ui .button-secondary.hover, .wp-core-ui .button-secondary:focus, .wp-core-ui .button-secondary:hover {
+	background: #0091cd;
+	border-color: #0073aa;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,.6);
+	color: #fff;
+}
+.admaniathemesupport {
+	text-align:center;
+}
+.Containt {
+	width: 100%;
+	height: 800px;
+	padding: 0.5em;
+	float: left;
+	margin: 10px;
+	background-color:#ffff00;
+}
+#form-fields li .val {
+	display: none;
+}
+.Containt li .val {
+	display: inline-block
+}
+.Containt li .txt {
+	display: none
+}
+.ui-draggable-dragging .val {
+	display: none !important
+}
+.admania_optionsinneritem {
+	clear: both;
+	padding: 2px 30px 35px;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #F8F8F8;
+}
+.admania_optionsetngitem {
+	border: 1px solid #EFEBEB;
+	margin: 13px 0 49px;
+	background: #fff;
+	clear: both;
+}
+.admania_pannelsettings, .admania_field_deschk {
+	clear:both;
+	overflow:hidden;
+}
+.admania_cdtabscontent table {
+	display: block;
+}
+.admania_cdtabscontent li.selected {
+	display: block;
+	-webkit-animation: cd-fade-in 0.5s;
+	-moz-animation: cd-fade-in 0.5s;
+	animation: cd-fade-in 0.5s;
+}
+.admania_cdtabscontent li p {
+	font-size: 1em;
+	line-height: 1.6;
+	color: #8493bf;
+	margin-bottom: 2em;
+}
+ @-webkit-keyframes cd-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+@-moz-keyframes cd-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+@keyframes cd-fade-in {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+#admania_feature_video td {
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-size: 13px;
+	display: block;
+	padding: 6px;
+	line-height: 23px;
+}
+#admania_feature_video table {
+	width: 100%;
+	display: block;
+}
+#admania_feature_video tbody {
+	padding: 0px 2px 0 2px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+#admania_feature_video tr {
+	display: block;
+	overflow: hidden;
+	margin: 0px 0 13px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 1px;
+}
+#admania_feature_video textarea {
+	padding: 6px 4px;
+	margin: 10px 0 0;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+.admania_layoutselection, .admania_optionsset label, .admania_cdtabscontent .admania_pannelsettings .random_content label, .admania_cdtabscontent .admania_pannelsettings .newstllbl {
+	display:inline-block !important;
+}
+.admania_cdtabscontent .admania_pannelsettings .newstllbl {
+	margin: 20px 200px 28px 0 !important;
+}
+.admania_cdtabscontent .admania_pannelsettings .random_content label {
+	margin: 0 31px 0px 0px !important;
+}
+.admania_optionsset1 {
+	padding: 15px 0 15px;
+}
+.admania_optionsset label {
+	margin: 9px 9px 9px 0 !important;
+}
+.admania_optionsset1 input[type=checkbox] {
+	margin: 0px 4px 0 0;
+}
+.layout_set .selected img {
+	border: 3px solid #EBE9E9;
+	padding: 1px;
+}
+.layout_set img {
+	border: 3px solid transparent;
+	padding: 1px;
+}
+.layout_set .admania_layoutselection:hover img {
+	opacity:0.8;
+}
+.admania_layoutsetopt input[type=radio], .layout_set input[type=radio] {
+	display:none;
+}
+.admania_layoutselection {
+	margin: 0 18px 0 0 !important;
+	padding: 2px;
+	border: 4px solid #F3F2F2;
+	width: 20.7%;
+}
+.admania_layoutsetopt .selected {
+	border: 4px solid #D4D4D4;
+}
+.admania_layoutselection img {
+	width: 100%;
+	margin: 0 0 -3px;
+}
+.admania_welcome {
+	background-color: #221F1E;
+	width:100%;
+}
+.admania_laysetngsselection {
+	width: 100%;
+	clear: both;
+	display: inline-block;
+}
+.admania_laysetngsselection h4 {
+	font-size: 14px;
+	padding: 17px 0px;
+	border-top: 1px solid #E8E3E3;
+	margin: 35px 0 25px;
+	border-bottom: 1px solid #E8E3E3;
+}
+#admania_hideoptinoptins, #admania_hideoptinoptins1, #admania_hideoptinoptins2 {
+	padding: 0px 0px 30px;
+}
+.admania_postdfimg {
+	padding: 20px 0 0;
+	overflow:hidden;
+}
+.admania_vmlsplclasfst .admania_optionsinneritem, #admania_hideftdpostsec1 .admania_optionsinneritem, #admania_hideftdpostsec3 .admania_optionsinneritem, #admania_hideftdpostsec2 .admania_optionsinneritem, #admania_hideoptinoptins .admania_optionsinneritem, #admania_hideoptinoptins1 .admania_optionsinneritem, #admania_hideoptinoptins2 .admania_optionsinneritem, #admania_hideoptinoptins3 .admania_optionsinneritem {
+	padding: 0;
+}
+.admania_vmlsplclasfst .random_content label {
+	display: inline-block;
+	padding: 26px 20px 0 0;
+}
+.admania_vmlsplclasfst .random_content select {
+	margin: 28px 0 0;
+}
+.admania_vmlsplclasfst {
+	padding: 0 0 3px !important;
+}
+.admania_trendypstmthd .admania_removespace {
+	margin: 24px 0 11px;
+	width: 70%;
+	padding: 5px 0;
+}
+.admania_trendypstmthd {
+	padding: 0px 0px 35px;
+}
+.admania_vmlsplclas500 {
+	margin: 20px 0 49px;
+	display: inline-block;
+	width: 100%;
+}
+.home_featuredpst .home_optindsgsttngs {
+	padding: 28px 0 !important;
+}
+.admania_metod1titles {
+	padding: 0 0 30px;
+}
+.admania_optionsetngitem .admania_sliderspecl h3 {
+	padding: 0px 0 21px !important;
+	position: initial !important;
+}
+.admania_vmlsplclas500 .admania_detailsect, #admania_hideftdpostsec2 .admania_detailsect {
+	padding: 20px 0 0;
+	display: inline-block;
+}
+.admania_vmlsplclas500 .admania_optionsinneritem, .admania_sliderspecl .admania_optionsinneritem {
+	border-bottom: 0px solid #F8F8F8;
+}
+.admania_laysectionsetngs {
+	width: 100%;
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+.admania_laysectionsetngs label {
+	display: inline-block !important;
+	margin: 16px 20px 19px 0px;
+}
+.admania_welcome .admania_col2 {
+	width:29% !important;
+	background-color: #000000 !important;
+	color: #fff !important;
+	font-size: 16px;
+}
+.section_cleared {
+	margin: 10px 0;
+	padding: 4px 10px;
+}
+.admania_optionsinneritem table {
+	border: 1px solid #eee;
+}
+.admania_optionsinneritem table tr th {
+	border: 1px solid #eee;
+	text-align: center;
+	text-transform:uppercase;
+}
+.admania_optionsinneritem table tr td {
+	border: 1px solid #eee;
+	text-align: center;
+}
+/* theme settings*/
+
+
+.admania_switch {
+	/*margin: 50px auto;*/
+	position: relative;
+}
+.admania_switch label {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+.admania_switch input {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 100;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+/* DEMO 3 */
+
+.admania_switch.admania_switchstyle {
+	width: 77px;
+	height: 27px;
+	float: right;
+}
+.admania_switch.admania_switchstyle label {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #a5a39d;
+	border-radius: 40px;
+	box-shadow:
+ inset 0 3px 8px 1px rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.5);
+	margin:0px;
+}
+.admania_switch.admania_switchstyle label:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -8px;
+	right: -8px;
+	bottom: -8px;
+	left: -8px;
+	border-radius: inherit;
+	background: #ababab;
+	background: -moz-linear-gradient(#f2f2f2, #ababab);
+	background: -ms-linear-gradient(#f2f2f2, #ababab);
+	background: -o-linear-gradient(#f2f2f2, #ababab);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), to(#ababab));
+	background: -webkit-linear-gradient(#f2f2f2, #ababab);
+	background: linear-gradient(#f2f2f2, #ababab);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3), 0 1px 1px rgba(0,0,0,0.25);
+}
+.admania_switch.admania_switchstyle label:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: -18px;
+	right: -18px;
+	bottom: -18px;
+	left: -18px;
+	border-radius: inherit;
+	background: #eee;
+	background: -moz-linear-gradient(#e5e7e6, #eee);
+	background: -ms-linear-gradient(#e5e7e6, #eee);
+	background: -o-linear-gradient(#e5e7e6, #eee);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e7e6), to(#eee));
+	background: -webkit-linear-gradient(#e5e7e6, #eee);
+	background: linear-gradient(#e5e7e6, #eee);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1px);
+}
+.admania_switch.admania_switchstyle label i {
+	display: block;
+	height: 80%;
+	width: 30%;
+	border-radius: inherit;
+	background: #fff;
+	position: absolute;
+	z-index: 2;
+	right: 70%;
+	top: 2px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #fff);
+	background: -ms-linear-gradient(#fff, #fff);
+	background: -o-linear-gradient(#fff, #fff);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+	background: -webkit-linear-gradient(#fff, #fff);
+	background: linear-gradient(#fff, #fff);
+	box-shadow: inset 0 1px 0 white, 0 0 8px rgba(0,0,0,0.3), 0 5px 5px rgba(0,0,0,0.2);
+}
+.admania_switch.admania_switchstyle label i:after {
+	content: "";
+	position: absolute;
+	left: 15%;
+	top: 25%;
+	width: 70%;
+	height: 50%;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #fff);
+	background: -ms-linear-gradient(#fff, #fff);
+	background: -o-linear-gradient(#fff, #fff);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#fff));
+	background: -webkit-linear-gradient(#fff, #fff);
+	background: linear-gradient(#fff, #fff);
+	border-radius: inherit;
+}
+.admania_switch.admania_switchstyle label i:before {
+	content: "off";
+	text-transform: uppercase;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+	font-family: Helvetica, Arial, sans-serif;
+	position: absolute;
+	top: 80%;
+	margin-top: -12px;
+	right: -173%;
+}
+ .admania_switch.admania_switchstyle input:checked ~ label {
+background: #00A0D2;
+}
+ .admania_switch.admania_switchstyle input:checked ~ label i {
+right: -1%;
+}
+ .admania_switch.admania_switchstyle input:checked ~ label i:before {
+content: "on";
+right: 134%;
+color: #FFFFFF;
+text-shadow: 
+0 1px 0 #afcb9b, 0 -1px 0 #6b8659;
+}
+.admania_MyTemplateName17, .admania_MyTemplateName16, .admania_MyTemplateName15, .admania_MyTemplateName14, .admania_MyTemplateName13, .admania_MyTemplateName12, .admania_MyTemplateName11, .admania_MyTemplateName10, .admania_MyTemplateName8, .admania_MyTemplateName7, .admania_MyTemplateName51, .admania_MyTemplateName5, .admania_MyTemplateName3, .admania_MyTemplateName2, .admania_MyTemplateName {
+	padding: 0px 25px;
+}
+.admania_MyTemplateName17 table, .admania_MyTemplateName16 table, .admania_MyTemplateName15 table, .admania_MyTemplateName14 table, .admania_MyTemplateName13 table, .admania_MyTemplateName12 table, .admania_MyTemplateName11 table, .admania_MyTemplateName10 table, .admania_MyTemplateName8 table, .admania_MyTemplateName7 table, .admania_MyTemplateName51 table, .admania_MyTemplateName5 table, .admania_MyTemplateName3 table, .admania_MyTemplateName2 table, .admania_MyTemplateName table {
+	background: #fcfcfc;
+	width: 100%;
+	padding: 20px 0px 0px;
+	border: 1px solid #eee;
+	margin: 0 0 35px;
+}
+.admania_MyTemplateName17 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName16 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName15 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName14 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName13 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName12 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName11 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName10 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName8 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName7 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName51 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName5 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName3 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName2 .admania_fontawsomeicondsg input[type="text"], .admania_MyTemplateName .admania_fontawsomeicondsg input[type="text"] {
+	width: 41% !important;
+	padding: 8px 13px !important;
+	font-size: 13px !important;
+}
+.admania_MyTemplateName17 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName16 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName15 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName14 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName13 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName12 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName11 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName10 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName8 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName7 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName51 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName5 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName3 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName2 .wp-picker-container input[type=text].wp-color-picker, .admania_MyTemplateName .wp-picker-container input[type=text].wp-color-picker {
+	padding: 4px !important;
+	width: 65px !important;
+}
+.admania_layoutsectionthird {
+	padding: 20px;
+	background: #fcfcfc;
+	border: 1px solid #F5F4F4;
+	margin: 30px 0 0;
+}
+.admania_postlayoutsection label {
+	display: block;
+	margin: 7px 7px 7px 0;
+	text-align: center;
+}
+.admania_layoutsection img, .admania_postlayoutsection img {
+	border: 3px solid transparent;
+	float: left;
+	margin-bottom: 5px;
+	max-width: 125px;
+}
+.admania_postlayoutsection input[type="radio"], .admania_layoutsection input[type="radio"] {
+	display: none;
+}
+#admania_basicmodal .admania_basicbtn {
+	padding: 9px 15px !important;
+	border-radius: 0px !important;
+}
+.admania_postlayoutsection .selected img, .admania_layoutsection .selected img {
+	border: 3px solid #ccc;
+}
+.admania_MyTemplateName17 table td, .admania_MyTemplateName16 table td, .admania_MyTemplateName15 table td, .admania_MyTemplateName14 table td, .admania_MyTemplateName13 table td, .admania_MyTemplateName12 table td, .admania_MyTemplateName11 table td, .admania_MyTemplateName10 table td, .admania_MyTemplateName8 table td, .admania_MyTemplateName7 table td, .admania_MyTemplateName51 table td, .admania_MyTemplateName5 table td, .admania_MyTemplateName3 table td, .admania_MyTemplateName2 table td, .admania_MyTemplateName table td {
+	padding: 7px 0;
+	width: 100%;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.admania_MyTemplateName17 table tr, .admania_MyTemplateName16 table tr, .admania_MyTemplateName15 table tr, .admania_MyTemplateName14 table tr, .admania_MyTemplateName13 table tr, .admania_MyTemplateName12 table tr, .admania_MyTemplateName11 table tr, .admania_MyTemplateName10 table tr, .admania_MyTemplateName8 table tr, .admania_MyTemplateName7 table tr, .admania_MyTemplateName51 table tr, .admania_MyTemplateName5 table tr, .admania_MyTemplateName3 table tr, .admania_MyTemplateName2 table tr, .admania_MyTemplateName table tr {
+	padding: 10px 30px;
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+	border-bottom: 1px solid #efefef;
+}
+.admania_MyTemplateName17 .wp-picker-container, .admania_MyTemplateName16 .wp-picker-container, .admania_MyTemplateName15 .wp-picker-container, .admania_MyTemplateName14 .wp-picker-container, .admania_MyTemplateName13 .wp-picker-container, .admania_MyTemplateName12 .wp-picker-container, .admania_MyTemplateName11 .wp-picker-container, .admania_MyTemplateName10 .wp-picker-container, .admania_MyTemplateName8 .wp-picker-container, .admania_MyTemplateName7 .wp-picker-container, .admania_MyTemplateName51 .wp-picker-container, .admania_MyTemplateName5 .wp-picker-container, .admania_MyTemplateName3 .wp-picker-container, .admania_MyTemplateName2 .wp-picker-container, .admania_MyTemplateName .wp-picker-container {
+	margin: 11px 0 0;
+}
+.admania_MyTemplateName17 .admania_textapar, .admania_MyTemplateName16 .admania_textapar, .admania_MyTemplateName15 .admania_textapar, .admania_MyTemplateName14 .admania_textapar, .admania_MyTemplateName13 .admania_textapar, .admania_MyTemplateName12 .admania_textapar, .admania_MyTemplateName11 .admania_textapar, .admania_MyTemplateName10 .admania_textapar, .admania_MyTemplateName8 .admania_textapar, .admania_MyTemplateName7 .admania_textapar, .admania_MyTemplateName51 .admania_textapar, .admania_MyTemplateName5 .admania_textapar, .admania_MyTemplateName3 .admania_textapar, .admania_MyTemplateName2 .admania_textapar, .admania_MyTemplateName .admania_textapar {
+	margin: 29px 0 0;
+}
+.admania_MyTemplateName17 table td p, .admania_MyTemplateName16 table td p, .admania_MyTemplateName15 table td p, .admania_MyTemplateName14 table td p, .admania_MyTemplateName13 table td p, .admania_MyTemplateName12 table td p, .admania_MyTemplateName11 table td p, .admania_MyTemplateName10 table td p, .admania_MyTemplateName8 table td p, .admania_MyTemplateName7 table td p, .admania_MyTemplateName51 table td p, .admania_MyTemplateName5 table td p, .admania_MyTemplateName3 table td p, .admania_MyTemplateName2 table td p, .admania_MyTemplateName table td p {
+	color: #666;
+	font-weight: bold;
+	float: left;
+	width: 36%;
+	padding: 0 13px 0 0;
+}
+.admania_MyTemplateName17 label, .admania_MyTemplateName16 label, .admania_MyTemplateName15 label, .admania_MyTemplateName14 label, .admania_MyTemplateName13 label, .admania_MyTemplateName12 label, .admania_MyTemplateName11 label, .admania_MyTemplateName10 label, .admania_MyTemplateName8 label, .admania_MyTemplateName7 label, .admania_MyTemplateName51 label, .admania_MyTemplateName5 label, .admania_MyTemplateName3 label, .admania_MyTemplateName2 label, .admania_MyTemplateName label {
+	font-size: 17px;
+	color: #111;
+	font-weight: bold;
+	padding: 8px 16px;
+	margin: 0;
+	display: inline-block;
+	position: relative;
+	background: #fff;
+	top: 18px;
+	left: 19px;
+}
+.admania_fthdgdsg {
+	margin:0;
+}
+.admania_MyTemplateName17 textarea, .admania_MyTemplateName17 input[type="text"], .admania_MyTemplateName16 textarea, .admania_MyTemplateName16 input[type="text"], .admania_MyTemplateName15 textarea, .admania_MyTemplateName15 input[type="text"], .admania_MyTemplateName14 textarea, .admania_MyTemplateName14 input[type="text"], .admania_MyTemplateName13 textarea, .admania_MyTemplateName13 input[type="text"], .admania_MyTemplateName12 textarea, .admania_MyTemplateName12 input[type="text"], .admania_MyTemplateName11 textarea, .admania_MyTemplateName11 input[type="text"], .admania_MyTemplateName10 textarea, .admania_MyTemplateName10 input[type="text"], .admania_MyTemplateName8 textarea, .admania_MyTemplateName8 input[type="text"], .admania_MyTemplateName7 textarea, .admania_MyTemplateName7 input[type="text"], .admania_MyTemplateName51 textarea, .admania_MyTemplateName51 input[type="text"], .admania_MyTemplateName5 textarea, .admania_MyTemplateName5 input[type="text"], .admania_MyTemplateName3 textarea, .admania_MyTemplateName3 input[type="text"], .admania_MyTemplateName2 textarea, .admania_MyTemplateName2 input[type="text"], .admania_MyTemplateName textarea, .admania_MyTemplateName input[type="text"] {
+	width: 100%;
+	background: #FBFBFB;
+	border: 1px solid #d3d7da;
+	box-shadow: 0 0 8px 1px #e9e8e8 inset;
+	padding: 12px;
+}
+.admania_MyTemplateName17 input[type="text"], .admania_MyTemplateName16 input[type="text"], .admania_MyTemplateName15 input[type="text"], .admania_MyTemplateName14 input[type="text"], .admania_MyTemplateName13 input[type="text"], .admania_MyTemplateName12 input[type="text"], .admania_MyTemplateName11 input[type="text"], .admania_MyTemplateName10 input[type="text"], .admania_MyTemplateName8 input[type="text"], .admania_MyTemplateName7 input[type="text"], .admania_MyTemplateName51 input[type="text"], .admania_MyTemplateName5 input[type="text"], .admania_MyTemplateName3 input[type="text"], .admania_MyTemplateName2 input[type="text"], .admania_MyTemplateName input[type="text"], .admania_MyTemplateName17 textarea, .admania_MyTemplateName16 textarea, .admania_MyTemplateName15 textarea, .admania_MyTemplateName14 textarea, .admania_MyTemplateName13 textarea, .admania_MyTemplateName12 textarea, .admania_MyTemplateName11 textarea, .admania_MyTemplateName10 textarea, .admania_MyTemplateName8 textarea, .admania_MyTemplateName7 textarea, .admania_MyTemplateName51 textarea, .admania_MyTemplateName5 textarea, .admania_MyTemplateName3 textarea, .admania_MyTemplateName2 textarea, .admania_MyTemplateName textarea {
+	width: 62% !important;
+	margin:0;
+}
+.admania_MyTemplateName17 table tr:last-child, .admania_MyTemplateName16 table tr:last-child, .admania_MyTemplateName15 table tr:last-child, .admania_MyTemplateName14 table tr:last-child, .admania_MyTemplateName13 table tr:last-child, .admania_MyTemplateName12 table tr:last-child, .admania_MyTemplateName11 table tr:last-child, .admania_MyTemplateName10 table tr:last-child, .admania_MyTemplateName8 table tr:last-child, .admania_MyTemplateName7 table tr:last-child, .admania_MyTemplateName51 table tr:last-child, .admania_MyTemplateName5 table tr:last-child, .admania_MyTemplateName3 table tr:last-child, .admania_MyTemplateName2 table tr:last-child, .admania_MyTemplateName table tr:last-child {
+	border-bottom: 0px solid #efefef !important;
+}
+.admania_cdtabsnavigation .fa {
+	font-size: 14px;
+	padding: 0px 10px 0 0;
+}
+.admania_pannelsettings input[type=text], .admania_pannelsettings textarea, .admania_pannelsettings select {
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #d3d7da;
+	box-shadow: 0 0 8px 1px #e9e8e8 inset;
+}
+.admania_pannelsettings select {
+	font-size: 13px;
+	height: 30px;
+	padding: 4px;
+}
+.admania_headerad_firstsection {
+	padding: 20px;
+	background: #fff;
+	box-shadow: 1px -1px 4px #eee;
+	border: 1px solid #eee;
+	margin: 16px 4px 4px 4px;
+}
+.admania_headerad {
+	margin:15px 0 30px;
+	transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	position:relative;
+	border-radius: 3px;
+	overflow:hidden;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-khtml-border-radius: 3px;
+}
+.admania_adhdng h3,
+.admania_hdfstclr h3 {
+	padding:20px 10px 20px 48px;
+	font-size: 15px;
+	background: #fff;
+	box-shadow: 0 1px 9px #eee;
+	margin: 20px 0px 28px;
+	border: 1px solid #eee;
+	position:relative;
+}
+.admania_hdfstclr {
+	position: relative;
+}
+.admania_hdfstclr h3 {
+    position: static;
+    margin: 0;
+	padding: 20px 10px 20px 23px;
+    display: block;
+}
+
+.admania_optionsinneritem .admania_hdfstlayoptions:last-child {
+	margin:26px 0 0;
+}
+
+.admania_lay1ftd_options {
+	margin: 30px 0;
+}
+
+.admania_optionsinneritem .admania_lay1ftd_options:last-child {
+	margin:30px 0 0;
+}
+
+.admania_hdfstlayoptions {
+margin:26px 0;
+}
+.admania_adimgshw35 {
+	margin:15px 0 0;
+}
+.admania_sldlay1option,
+.admania_lay1ftstngs_options,
+.admania_lay2ftstngs_options,
+.admania_sldlay2option,
+.admania_sldlay3option,
+.admania_sldlay4option,
+.admania_sldlay5option,
+.admania_sldlay6option {
+	display:none;
+}
+.admania_layout_setopt label:nth-child(3n+3) {
+	margin: 12px 0px 7px 0 !important;
+}
+.admania_ftditemoptions {
+	display: inline-block;
+    width: 100%;
+}
+.admania_hdfstclr span {
+	position: absolute;
+    right: 30px;   
+    line-height: 1.1;
+    padding: 2px 1px;
+    top: 18px;
+    background-color: #30a9f1;
+    color: #fff;
+	cursor: pointer;
+}
+.admania_dashicnhd {
+	position: absolute;
+	left: 20px;
+	top: 19px;
+	color: #ddd;
+}
+.admania_adhdng {
+	padding: 20px 20px 0;
+	border: 1px solid rgb(239, 239, 239);
+	background: rgb(252, 252, 252);
+	margin:30px 0;
+}
+.admania_adhdng:hover .admania_hdradclk {
+	top: 37%;
+	display:block;
+}
+.admania_adstngextrastyle {
+	position:relative;
+}
+.admania_site_launch {
+	padding: 6px 23px;
+	display: inline-block;
+	vertical-align: top;
+	cursor:pointer;
+	border: 1px solid #4a91b3;
+	background: #0091cd;
+	color: #fff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+}
+.admania_filedsheader {
+	overflow: hidden;
+	padding: 15px 20px;
+	margin: 0px 28px 1px;
+}
+.admania_optinosstngslist {
+	padding: 20px 30px 0;
+	border: 1px solid #eee;
+	box-shadow: 0 1px 9px #eee;
+	margin: 20px 31px 30px;
+}
+.admaniathemesupport .admania_optinosstngslist .admania_sctnhdng {
+	padding: 9px 2px 33px !important;
+}
+.admaniathemesupport .admania_optionsetngitem .admania_optinosstngslist h3 {
+	top: -38px;
+	left: -15px;
+}
+.admania_themesavebtn .admaniapanel-submit {
+	margin: 0px 0;
+}
+.admania_site_launch:hover {
+	background:#1988b7;
+}
+.admania_clstb {
+	position: absolute;
+	right: 1px;
+	top:1px;
+	cursor:pointer;
+	background: #e61010;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	color: #fff;
+	border: 2px solid #c90000;
+}
+.admania_hdradclk {
+	position: absolute;
+	top: -40%;
+	border-bottom: 2px solid #dee2e4;
+	transition: 0.3s ease-in-out;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	left: 29%;
+	padding: 11px 18px;
+	text-decoration: none;
+	color: #111 !important;
+	border-radius: 1px;
+	display: none;
+	font-size: 16px;
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	-ms-border-radius: 1px;
+	-khtml-border-radius: 1px;
+	display: inline-block;
+	background: #fff;
+}
+.admania_adhdng:hover .admania_headerad {
+	background:#0073aa;
+}
+.admania_adhdng:hover .admania_headerad img {
+	opacity:0.2;
+}
+.admaniathemesupport .related_poststngs h3 {
+	padding: 8px 15px 22px;
+}
+.admaniathemesupport .related_poststngs .section_cleared {
+	padding: 11px 30px 10px;
+}
+.admaniathemesupport .related_poststngs .admania_optionsinneritem {
+	border-bottom:0px solid #eee !important;
+	padding: 2px 30px 20px !important;
+}
+.admaniathemesupport {
+	width: 1020px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+input#custom_logo {
+	width: 68%;
+}
+.home_optindsgsttngs {
+	padding: 28px;
+}
+.admania_layoutsetopt .admania_layoutselection:nth-child(4) {
+	margin: 0 0px 0 0 !important;
+}
+.highlitdimg {
+	padding: 12px 33px;
+	background: #F5F4F4;
+	margin: 20px 0;
+	border: 1px solid #ECECEC;
+}
+.eghiglitdimg {
+	float: left;
+	padding: 17px 19px 0 0;
+	font-size: 18px;
+}
+.highlitdimg img {
+	width: 114px;
+	padding: 6px 0 0;
+}
+.admania_templateselectoptions {
+	padding: 30px 10px 0 30px;
+}
+.admania_templateselectoptions select {
+	background: #FBFBFB;
+	border: 1px solid #d3d7da;
+	box-shadow: 0 0 8px 1px #e9e8e8 inset;
+}
+.k-i-clock:before {
+	content:"\f017";
+	font-family: FontAwesome;
+}
+.k-picker-wrap .k-select {
+	cursor:pointer;
+	display: inline-block;
+	padding: 13px 16px;
+	background: #D4D4D4;
+	color: #5F5D5D;
+	vertical-align:top;
+}
+.k-timepicker {
+	float: right;
+	width: 62%;
+}
+.admania_MyTemplateName8 .k-timepicker input[type="text"] {
+	width: 90% !important;
+}
+#timepicker_timeview {
+	background: #FDFDFD;
+	border-left: 1px solid #ddd;
+	margin: 0;
+	height: 350px;
+	border-bottom: 1px solid #ddd;
+	overflow-y: scroll !important;
+}
+.k-item {
+	padding: 15px;
+}
+.k-item:hover {
+	background:#f5f5f5;
+}
+#admania_hideoptinoptins .admania_sectiongap, #admania_hideftdpostsec .admania_sectiongap {
+	padding:25px 0 25px !important;
+}
+.admania_vmlsplclas500 .admania_sectiongap label, #admania_hidefistlay2 .admania_sectiongap label {
+	display: inline-block !important;
+}
+#admania_hideftdpostsec .admania_metod1titles input[type="text"] {
+	width: 62%;
+}
+.admania_vmlsplclas500 .admania_mthssldinner, #admania_hideftdpostsec .admania_mthssldinner, #admania_hideftdpostsec1 .admania_mthssldinner, #admania_hideftdpostsec3 .admania_mthssldinner, #admania_hideftdpostsec2 .admania_mthssldinner {
+	padding: 28px 30px 29px;
+	border: 1px solid #eee;
+}
+.admania_vmlsplclas500 h4, #admania_hideftdpostsec h4, #admania_hideftdpostsec3 h4, #admania_hideftdpostsec2 h4, #admania_hideoptinoptins2 h4, #admania_hideoptinoptins3 h4, #admania_hideftdpostsec1 h4, #admania_hideoptinoptins1 h4, #admania_hideoptinoptins h4, #admania_hideftdpostsec h4 {
+	padding: 8px 15px 0;
+	top: 11px;
+	color:#111;
+	left: 20px;
+	font-size: 14px;
+	background: #fff;
+	z-index: 9;
+	position: relative;
+	display: inline-block;
+	border-top: 0px solid #E8E3E3;
+	margin: 10px 0 0;
+	border-bottom: 0px solid #E8E3E3;
+}
+#admania_hideoptinoptins .admania_optionsinneritem, #admania_hideftdpostsec .admania_optionsinneritem {
+	background:#fff;
+	padding:0;
+	border-bottom:0px solid #eee;
+}
+#admania_hidefistlay3 .admania_hdopnsdsgitem, #admania_hidefistlay2 .admania_hdopnsdsgitem, #admania_hidefistlay1 .admania_hdopnsdsgitem, #admania_hideoptinoptins .admania_hdopnsdsgitem, #admania_hideftdpostsec .admania_hdopnsdsgitem {
+	padding:30px;
+	border:1px solid #eee;
+}
+.admania_oroptins h6 {
+	background: #F8F8F8;
+	padding: 9px 10px;
+	text-align: center;
+	font-size: 14px;
+}
+.admania_laysectionsetngs #admania_hideoptinoptins label {
+	display: block !important;
+	text-align: left;
+}
+.admania_laysectionsetngs #admania_hideoptinoptins .admania_lablecss {
+	display: inline-block !important;
+}
+.admania_vmlsplclas500 .admania_detailsect, #admania_hideftdpostsec2 .admania_detailsect, #admania_hideftdpostsec .admania_detailsect {
+	display: inline-block;
+	padding: 15px 0;
+	border-top: 1px solid #ECECEC;
+	margin: 0 0 15px;
+	border-bottom: 1px solid #ECECEC;
+}
+.admania_vmlsplclas500 .admania_detailsect, #admania_hideftdpostsec2 .admania_detailsect {
+	margin: 22px 0 8px !important;
+	width:100%;
+}
+.admania_vmlsplclas500 .admania_detailsect h3, #admania_hideftdpostsec2 .admania_detailsect h3 {
+	line-height: 1.6;
+	background: transparent;
+	padding: 0 !important;
+	font-size: 15px;
+}
+#magazee_instag_configinfo {
+	padding: 20px;
+    background-color: #f5f5f5;
+    margin: 25px 0;
+}
+#magazee_instag_configinfo b {
+	width: 18%;
+    display: inline-block;
+}
+#admania-feature-video td {
+	display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-size: 13px;
+	display: block;
+	padding: 6px;
+	line-height: 23px;
+}
+.admania_adaccordion {
+	margin: 0 0px 30px;
+	border-bottom: 1px solid #eee;
+}
+.admania_opentab .admania_bkndicn {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-khtml-transform: rotate(180deg);
+}
+.admania_bkndicn {
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-khtml-transform: rotate(0deg);
+	-webkit-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+}
+.admania_adaccordion a {
+	display: block;
+	font-size: 14px;
+	background: #279cd5;
+	padding: 15px 20px;
+	color: #fff;
+	overflow: hidden;
+	text-decoration: none;
+	border-bottom: 1px solid #228db6;
+}
+.admaniathemesupport .admania_adaccordion .admania_slot1 {
+	padding: 25px !important;
+	background: #fafafa;
+	border: 1px solid #eee;
+}
+.admaniathemesupport .admania_adaccordion .admania_slotshw {
+	overflow:visible !important;
+}
+.admaniathemesupport .admania_adaccordion .admania_slot1 label {
+	margin: 0 0 17px !important;
+	font-size: 13px;
+}
+.admania_bkndicn {
+	float: right;
+	font-size: 16px;
+	line-height: 1.4;
+}
+.admania_cdtabsnavigation a:focus, .admania_adaccordion a:focus, .admania_pstetabs li a:active, .admania_pstetabs li a:focus, .admania_pgepstetabs li a:active, .admania_pgepstetabs li a:focus, .admania_adaccordion a:active {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+.admania_slot1 {
+	display:none;
+}
+.admania_cdtabscontent .admania_slotimglnkad label {
+	width:100% !important;
+	display:block !important;
+}
+#admania-feature-video textarea {
+	padding: 6px 4px;
+	margin: 10px 0 0;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+.admania_sliderspeclinnr {
+	padding: 0 0 35px;
+}
+.admania_newstylecss {
+	padding:15px 0;
+}
+.admania_newstyleinr label, .admania_newstylecss label {
+	width: 48%;
+	margin: 10px 0 21px!important;
+}
+.admania_blg2reldpstlabel {
+	padding: 20px 0;
+}
+.admania_cdtabscontent .admania_pannelsettings .admania_blg2reldpstlabel label {
+	margin: 0 31px 0px 0px !important;
+	width: 41%;
+	display: inline-block;
+}
+#admania-backup-options td {
+	display: block;
+	margin-bottom: 20px;
+}
+#admania-servicecouponcode .admania_serviceinput {
+	width:50%;
+}
+.admania_metaboxsettings {
+	padding:25px 0px;
+	width: 300px;
+}
+.admania_metaboxsettings label {
+	text-align:left;
+}
+.admaniapanel-submit {
+	float:right;
+	margin: 14px 0;
+}
+.admania_updtaenag {
+	color: #0074a2;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd {
+	text-align:left;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd9 {
+	margin: 16px 40px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd8 {
+	margin:16px 77px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd7 {
+	margin: 16px 15px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd6 {
+	margin: 16px 86px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd5 {
+	margin: 16px 30px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd4 {
+	margin: 16px 15px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd3 {
+	margin: 16px 15px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd2 {
+	margin: 16px 66px 19px 0px;
+}
+.admania_themeoptionsloutsettings .admania_loutthemebkd1 {
+	margin: 16px 58px 19px 0px;
+}
+.admania_themebkdextracss {
+	width:100%;
+}
+.admania_themebkdextracss .admania_newthembknd {
+	margin: 0px 0 20px !important;
+}
+.admaniathemesupport .admania_newthmlinebknd {
+	padding: 0 0 44px;
+	margin: 0px 0 30px;
+	border-bottom: 1px solid #eee;
+}
+.admaniathemesupport .admania_thmnwbkndstngs {
+	margin: 9px 246px 9px 0 !important;
+	display: inline-block !important;
+}
+.admaniathemesupport .admania_themenewbknstngline {
+	margin: 9px 196px 9px 0 !important;
+	display: inline-block !important;
+}
+.admaniathemesupport .admania_vmlthemebkd {
+	padding: 23px 30px 20px !important;
+	border-bottom: 0 !important;
+}
+.admaniathemesupport .admania_themvmlnlin {
+	border-bottom: 0 !important;
+}
+.admaniathemesupport .admania_vml2thmbkd {
+	padding: 22px 30px 25px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vml3thembkd {
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vml4thembkd {
+	padding: 22px 30px 25px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlspcl {
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlspcl4 {
+	padding: 16px 33px 33px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlspcl2 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 0px 30px 35px !important;
+}
+.admaniathemesupport .blogospher_vmlspcl11 {
+	margin: 0px 0 25px !important;
+}
+.admaniathemesupport .blogospher_vmlspcl12 {
+	padding: 16px 33px 33px;
+	border-bottom: 0px solid #F8F8F8;
+}
+.admaniathemesupport .admania_vmlsplnew12 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 0px 30px 35px !important;
+}
+.admaniathemesupport .admania_vmlsplnew23 {
+	margin: 0px 0 25px !important;
+}
+.admaniathemesupport .admania_vmlsplce28 {
+	padding: 16px 33px 33px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlspl70 {
+	width: 100% !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 0px 30px 35px !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+.admaniathemesupport .admania_vmlsplnewline60 {
+	margin: 0px 0 25px !important;
+}
+.admaniathemesupport .admania_newstylewihtnew56 {
+	padding: 25px 33px 0px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlsplcnew49 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 30px 30px 0px !important;
+}
+.admaniathemesupport .admania_vmlsplcnew99 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 0px 30px 30px !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg280 {
+	width: 100% !important;
+	border-bottom: 0px !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg281 {
+	display: inline-block !important;
+	margin: 0px 90px 5px 0 !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg283 {
+	width: 100% !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg285 {
+	display: inline-block !important;
+	margin: 0px 31px 5px 0 !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg286 {
+	padding: 25px 33px 0px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg289 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 1px solid #ECEAEA !important;
+	padding: 30px !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg290 {
+	padding:39px 33px 23px !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg292 {
+	width: 100% !important;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	box-sizing: border-box !important;
+	border-bottom: 0px solid #F8F8F8 !important;
+	padding: 7px 30px 30px !important;
+}
+.admaniathemesupport .admania_vmlsplpingbkg300 {
+	margin: 0px 0 20px !important;
+}
+.admaniathemesupport .admania_labelvmlclas {
+	display: inline-block !important;
+	margin: 0 13.7em 2em 0 !important;
+}
+.admaniathemesupport .admania_thembkdsubmittopnew {
+	margin-top: 0px !important;
+}
+.admaniathemesupport .admania_vmlsplcnew105 {
+	margin: 0px 0 25px !important;
+}
+.admaniathemesupport .admania_vmlsplcnew300 {
+	margin: 0px 0 20px !important;
+}
+.admania_vmlsplclas500 .admania_detailsect {
+	width:100%;
+}
+.admania_vmlsplclas500 .admania_detailsect h3 {
+	position: inherit;
+}
+.admania_fontawesomeiconlist span {
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+font-size: .8125rem;
+}
+.admania_fontawesomeiconlist {
+	padding: 0px 20px;
+}
+.admania_fontawesomeiconlist li i:before {
+	font-size: 24px;
+	font-size: 1.5rem;
+	color: #666;
+	padding: 0 15px 0 0;
+}
+.admania_fontawesomeiconlist li {
+	display: inline-block;
+	width: 48%;
+	margin-bottom: 18px;
+}
+.admania_fontawesomeiconlist .admania_iconname {
+	width: 180px;
+	text-align: left;
+}
+#admania_basicmodalcontent {
+	display:none;
+}
+.admania_collg3 {
+	width: 24%;
+	float: left;
+}
+.admania_collg3 i {
+	font-size: 20px;
+	float:left;
+}
+.admania_container .admania_pageheader {
+	border-bottom: 1px solid #eeeeee;
+	margin: 40px 0 20px;
+	padding: 0px 19px 40px;
+}
+.admania_fontawesomeiconlist {
+	margin: 22px 0;
+}
+#admania_new {
+	clear:both;
+	padding-top: 11px;
+}
+#admania_basicmodal {
+	display:inline-block;
+}
+.admania_collg3 p {
+	display: block;
+	margin: 0px 15px 10px 33px;
+	padding: 0px 5px 5px;
+	text-align: left;
+}
+.admania_basicbtn {
+	padding: 6px 15px !important;
+	display: inline-block;
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: #ee333e;
+	border-color: -moz-use-text-color -moz-use-text-color #ae1414;
+	border-image: none;
+	border-radius: 4px;
+	border-style: none none solid;
+	border-width: medium medium 1px;
+	color: #fff !important;
+	cursor: pointer;
+	font-size: 13px !important;
+}
+.admania_newopen #admania_basicmodalcontent {
+	display:block;
+}
+#admania_basicmodalcontent {
+	z-index:1000700;
+	position:fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:#111;
+	opcity:0.7;
+}
+#admania_basicmodalcontent .admania_container {
+	width: 700px;
+	background-color: #fff;
+	position: fixed;
+	left: 25%;
+	top: 15%;
+	overflow: scroll;
+	height: 500px;
+}
+.admania_closebtn {
+	position: fixed;
+	color: #fff;
+	right: 23%;
+	background-color: #26BA0E;
+	top: 10.5%;
+	padding: 6px 20px;
+	cursor:pointer;
+}
+#footersubsidebar1 .admania_ftrlblnm, #footersubsidebar1 .admania_name8, #footersubsidebar2 .admania_ftrlblnm, #footersubsidebar2 .admania_name8 {
+	display:none;
+}
+#setting-error-admania {
+	display:block;
+}
+.admania_bkicn {
+	margin: 0 7px 0 0;
+	color: #c1bfbf;
+}
+.admania_headerad img {
+	width:100%;
+}
+.admania_adsensesection5, .admania_adsensesection14, .admania_adsensesection15, .admania_adsensesection9, .admania_adsensesection7, .admania_adsensesection11, .admania_adsensesection8 {
+	left: 18%;
+}
+.admania_adsensesection10 {
+	left: 20%;
+}
+.admania_aftrpstoptnad, .admania_headeradsttng, .admania_snglepstbtmad, .admania_snglepstnthpara, .admania_bfpgcnt, .admania_pgpsttp, .admania_pgepstnthpara, .admania_pagepstbtmad, .admania_pgesdbrstcky, .admania_snglpsttp, .admania_bfftr, .admania_bfpstcnt, .admania_snglesdbrstcky, .admania_aftrsldrsctn, .admania_hmpostinad, .admania_cntadsttng, .admania_aftrheaderadsttng {
+	display:none;
+}
+.admania_textbot {
+	margin:0 0 15px;
+}
+.admania_pstetabs i, .admania_pgepstetabs i, .admania_cdtabsnavigation i {
+	font-size: 17px;
+	padding: 0 8px 0 0;
+	line-height: 1.2;
+}
+/***Admania Metabox**/
+
+
+.admania_adminpoststngs {
+	padding: 0;
+	background:#f5f5f5;
+	margin: 39px 30px;
+	overflow: hidden;
+	position: relative;
+}
+.admania_field_inner textarea, .admania_field_inner input, .admania_field_inner select {
+	max-width:100%;
+	background-color: #ffffff;
+	background-image: none;
+	border: 1px solid #e8e9ea;
+	box-shadow: 0 0 8px 1px #eeebeb inset;
+}
+.admania_flddsc {
+	float:left;
+	margin: 9px 0 0 19px;
+}
+.admania_field_inner textarea {
+	padding: 8px;
+}
+.admania_field_inner {
+	overflow:hidden;
+	background: #fcfcfc;
+	padding: 27px 30px;
+	margin: 25px 0;
+	box-shadow: 0 1px 9px #eee;
+	border: 1px solid #eee;
+}
+.admania_field_inner h4 {
+	padding: 11px 0px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.admania_pstetabs li, .admania_pgepstetabs li {
+	list-style-type:none;
+	margin:0;
+}
+.admania_pgepstetabs li a, .admania_pstetabs li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	background: #f2f2f2;
+	color: #565454;
+	font-size: 14px;
+	border-bottom: 1px solid #ecebeb;
+	webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+.admania_pgepstetabs, .admania_pstetabs {
+	float: left;
+	width: 215px;
+	background: #f2f2f2;
+	height: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.admania_pstimgurlstngs, .admania_pgepstimgurlstngs {
+	width: 74%;
+}
+.admania_pstetabs li a:hover, .admania_adminpoststngs .admaniapsttb_current a {
+	background:#e6e6e6;
+}
+.admaniapst_containertab, .admaniapgepst_containertab {
+	float: right;
+	width: 65%;
+	padding:20px 25px;
+}
+#admaniapst_tabs11, #admaniapst_tabs21 {
+	display:block;
+}
+.admaniapstb_tabmain, .admaniapgepstb_tabmain {
+	display:none;
+}
+
+.admania_headerad_firstsectioninner {
+padding:14px 20px;
+}
+.admani_hidefistlayflds .admania_adhdng h3 {
+	margin: 20px 0px -9px;
+    display: block;
+    left: 0;
+}
+.admania_layout_setopt .admania_layout_selection:hover img {
+	opacity:0.8;
+}
+.admania_layout_setopt input[type=radio], .layout_set input[type=radio] {
+	display:none;
+}
+.admania_layout_selection,
+.admania_headertype_selection {
+	margin: 12px 18px 7px 0 !important;
+    padding: 2px;
+    border: 4px solid #F3F2F2;
+    width: 29%;
+    display: inline-block !important;
+}
+.admania_layout_setopt .selected {
+	border: 4px solid #232121;
+}
+.admania_layout_selection img,
+.admania_headertype_selection img {
+	width: 100%;
+	margin: 0 0 -3px;
+}
+
+.admania_cdtabscontent img {
+	max-width:100%;
+}
+
+.admaniaadimgtag_extrastyle {
+	padding: 20px 0 10px;
+    width: 100%;
+    display: inline-block;
+}

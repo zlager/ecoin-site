@@ -1,0 +1,3243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PlaceHolder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-09-03 04:47:30+0000\n"
+"Last-Translator: none\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:18
+#@ admania
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:25
+#@ admania
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:74
+#: index.php:61
+#: search.php:65
+#@ admania
+msgid "Sorry No Posts Were Found"
+msgstr ""
+
+#: author-bio.php:24
+#: content.php:45
+#: content.php:117
+#: lib/includes/admania-customtemp-tags.php:1229
+#: lib/includes/admania-customtemp-tags.php:1283
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:189
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:251
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:314
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:376
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:436
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:495
+#@ admania
+msgid "By"
+msgstr ""
+
+#: comments.php:22
+#: comments.php:49
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3203
+#@ admania
+msgid "Name"
+msgstr ""
+
+#: comments.php:23
+#: comments.php:50
+#@ admania
+msgid "Email"
+msgstr ""
+
+#: comments.php:24
+#: comments.php:51
+#@ admania
+msgid "Website"
+msgstr ""
+
+#: comments.php:30
+#@ admania
+msgid "submit"
+msgstr ""
+
+#: comments.php:31
+#@ admania
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+#@ admania
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:33
+#@ admania
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:34
+#@ admania
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+#@ admania
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:40
+#, php-format
+#@ admania
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:44
+#@ admania
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:46
+#, php-format
+#@ admania
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr ""
+
+#: comments.php:56
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1465
+#@ admania
+msgid "Comments"
+msgstr ""
+
+#: comments.php:58
+#@ admania
+msgid "Comment"
+msgstr ""
+
+#: comments.php:91
+#@ admania
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:97
+#@ admania
+msgid "Send"
+msgstr ""
+
+#: comments.php:100
+#@ admania
+msgid "Leave a Comment"
+msgstr ""
+
+#: content-page.php:51
+#: content-single.php:57
+#: content.php:67
+#: content.php:139
+#@ admania
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:55
+#: content-single.php:61
+#: content.php:71
+#: content.php:143
+#@ admania
+msgid "Page"
+msgstr ""
+
+#: content-single.php:92
+#, php-format
+#@ admania
+msgid "Tags : %1$s"
+msgstr ""
+
+#: content-single.php:121
+#: content.php:81
+#@ admania
+msgid "Click to share"
+msgstr ""
+
+#: content.php:26
+#: content.php:110
+#@ admania
+msgid "Featured"
+msgstr ""
+
+#: content.php:33
+#: lib/includes/admania-customtemp-tags.php:534
+#: lib/includes/admania-customtemp-tags.php:654
+#: lib/includes/admania-customtemp-tags.php:838
+#: lib/includes/admania-customtemp-tags.php:1249
+#@ admania
+msgid "In"
+msgstr ""
+
+#: content.php:49
+#: content.php:123
+#: lib/includes/admania-customtemp-tags.php:528
+#: lib/includes/admania-customtemp-tags.php:647
+#: lib/includes/admania-customtemp-tags.php:1239
+#: lib/includes/admania-customtemp-tags.php:1291
+#@ admania
+msgid "On"
+msgstr ""
+
+#: content.php:79
+#: content.php:152
+#@ admania
+msgid "Continue Reading"
+msgstr ""
+
+#: footer.php:48
+#: lib/includes/widgets/admania-widget-socialfollow.php:178
+#@ admania
+msgid "instagram"
+msgstr ""
+
+#: functions.php:83
+#@ admania
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:84
+#@ admania
+msgid "Secondary Menu"
+msgstr ""
+
+#: functions.php:131
+#@ admania
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:133
+#@ admania
+msgid "primary sidebar that appears on the Right."
+msgstr ""
+
+#: functions.php:144
+#@ admania
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: functions.php:146
+#@ admania
+msgid "Secondary sidebar that appears on the Left."
+msgstr ""
+
+#: functions.php:176
+#@ admania
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:140
+#: header.php:224
+#: lib/includes/admania-customtemp-tags.php:1050
+#: lib/includes/admania-customtemp-tags.php:1081
+#: lib/includes/admania-customtemp-tags.php:1149
+#: lib/includes/admania-customtemp-tags.php:1178
+#: tempad-parts/aftergridpost-ad.php:43
+#: tempad-parts/afterheader-ad.php:49
+#: tempad-parts/afterheader-ad.php:79
+#: tempad-parts/afterslider-ad.php:44
+#: tempad-parts/beforefooter-ad.php:44
+#: tempad-parts/leftsidebar-ad.php:38
+#: tempad-parts/pagecontentbf-ad.php:53
+#: tempad-parts/pagecontentbf-ad.php:86
+#: tempad-parts/pagecontentbottm-ad.php:53
+#: tempad-parts/pagecontentbottm-ad.php:89
+#: tempad-parts/pagecontenttop-ad.php:52
+#: tempad-parts/pagecontenttop-ad.php:86
+#: tempad-parts/pagesticky-ad.php:53
+#: tempad-parts/pagesticky-ad.php:86
+#: tempad-parts/rightsidebar-ad.php:37
+#: tempad-parts/singleafteroptin-ad.php:58
+#: tempad-parts/singleafteroptin-ad.php:80
+#: tempad-parts/singleafteroptin-ad.php:111
+#: tempad-parts/singleafteroptin-ad.php:133
+#: tempad-parts/singlecontentbottm-ad.php:54
+#: tempad-parts/singlecontentbottm-ad.php:89
+#: tempad-parts/singlecontenttop-ad.php:55
+#: tempad-parts/singlecontenttop-ad.php:89
+#: tempad-parts/singlepostbf-ad.php:53
+#: tempad-parts/singlepostbf-ad.php:87
+#: tempad-parts/singlesticky-ad.php:55
+#: tempad-parts/singlesticky-ad.php:88
+#@ admania
+msgid "adimage"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:41
+#@ admania
+msgid " Note : Paste youtube video url,vimeo video url,soundcloud url only."
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:108
+#: lib/includes/admania-custom-metabox.php:698
+#@ admania
+msgid "Before Content Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:111
+#: lib/includes/admania-custom-metabox.php:701
+#@ admania
+msgid "Content Inner Top Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:114
+#: lib/includes/admania-custom-metabox.php:704
+#@ admania
+msgid "Content Nth Para Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:117
+#: lib/includes/admania-custom-metabox.php:707
+#@ admania
+msgid "Content Bottom Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:120
+#@ admania
+msgid "After OptinBox Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:123
+#: lib/includes/admania-custom-metabox.php:710
+#@ admania
+msgid "Content Bot Sticky Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:130
+#: lib/includes/admania-custom-metabox.php:717
+#@ admania
+msgid "Before Content Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:133
+#: lib/includes/admania-custom-metabox.php:206
+#: lib/includes/admania-custom-metabox.php:297
+#: lib/includes/admania-custom-metabox.php:394
+#: lib/includes/admania-custom-metabox.php:467
+#: lib/includes/admania-custom-metabox.php:574
+#: lib/includes/admania-custom-metabox.php:720
+#: lib/includes/admania-custom-metabox.php:793
+#: lib/includes/admania-custom-metabox.php:884
+#: lib/includes/admania-custom-metabox.php:981
+#: lib/includes/admania-custom-metabox.php:1054
+#@ admania
+msgid "Note* : Please Choose Any One Of the Following AD Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:137
+#: lib/includes/admania-custom-metabox.php:724
+#@ admania
+msgid "Active the Before Content Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:141
+#: lib/includes/admania-custom-metabox.php:728
+#@ admania
+msgid "Enable the Before Content Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:151
+#: lib/includes/admania-custom-metabox.php:242
+#: lib/includes/admania-custom-metabox.php:339
+#: lib/includes/admania-custom-metabox.php:412
+#: lib/includes/admania-custom-metabox.php:485
+#: lib/includes/admania-custom-metabox.php:592
+#: lib/includes/admania-custom-metabox.php:738
+#: lib/includes/admania-custom-metabox.php:829
+#: lib/includes/admania-custom-metabox.php:926
+#: lib/includes/admania-custom-metabox.php:999
+#: lib/includes/admania-custom-metabox.php:1072
+#@ admania
+msgid "Html Code Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:155
+#: lib/includes/admania-custom-metabox.php:159
+#: lib/includes/admania-custom-metabox.php:246
+#: lib/includes/admania-custom-metabox.php:250
+#: lib/includes/admania-custom-metabox.php:343
+#: lib/includes/admania-custom-metabox.php:347
+#: lib/includes/admania-custom-metabox.php:416
+#: lib/includes/admania-custom-metabox.php:420
+#: lib/includes/admania-custom-metabox.php:596
+#: lib/includes/admania-custom-metabox.php:600
+#: lib/includes/admania-custom-metabox.php:742
+#: lib/includes/admania-custom-metabox.php:746
+#: lib/includes/admania-custom-metabox.php:833
+#: lib/includes/admania-custom-metabox.php:837
+#: lib/includes/admania-custom-metabox.php:930
+#: lib/includes/admania-custom-metabox.php:934
+#: lib/includes/admania-custom-metabox.php:1003
+#: lib/includes/admania-custom-metabox.php:1007
+#: lib/includes/admania-custom-metabox.php:1076
+#: lib/includes/admania-custom-metabox.php:1080
+#@ admania
+msgid "Paste the Ad Html Code"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:164
+#: lib/includes/admania-custom-metabox.php:255
+#: lib/includes/admania-custom-metabox.php:352
+#: lib/includes/admania-custom-metabox.php:425
+#: lib/includes/admania-custom-metabox.php:506
+#: lib/includes/admania-custom-metabox.php:605
+#: lib/includes/admania-custom-metabox.php:751
+#: lib/includes/admania-custom-metabox.php:842
+#: lib/includes/admania-custom-metabox.php:939
+#: lib/includes/admania-custom-metabox.php:1012
+#: lib/includes/admania-custom-metabox.php:1085
+#@ admania
+msgid "Google Responsive Code Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:168
+#: lib/includes/admania-custom-metabox.php:172
+#: lib/includes/admania-custom-metabox.php:259
+#: lib/includes/admania-custom-metabox.php:263
+#: lib/includes/admania-custom-metabox.php:356
+#: lib/includes/admania-custom-metabox.php:360
+#: lib/includes/admania-custom-metabox.php:429
+#: lib/includes/admania-custom-metabox.php:433
+#: lib/includes/admania-custom-metabox.php:609
+#: lib/includes/admania-custom-metabox.php:613
+#: lib/includes/admania-custom-metabox.php:755
+#: lib/includes/admania-custom-metabox.php:759
+#: lib/includes/admania-custom-metabox.php:846
+#: lib/includes/admania-custom-metabox.php:850
+#: lib/includes/admania-custom-metabox.php:943
+#: lib/includes/admania-custom-metabox.php:947
+#: lib/includes/admania-custom-metabox.php:1016
+#: lib/includes/admania-custom-metabox.php:1020
+#: lib/includes/admania-custom-metabox.php:1089
+#: lib/includes/admania-custom-metabox.php:1093
+#@ admania
+msgid "Paste the Google Responsive Code Ad"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:177
+#: lib/includes/admania-custom-metabox.php:268
+#: lib/includes/admania-custom-metabox.php:365
+#: lib/includes/admania-custom-metabox.php:438
+#: lib/includes/admania-custom-metabox.php:618
+#: lib/includes/admania-custom-metabox.php:764
+#: lib/includes/admania-custom-metabox.php:855
+#: lib/includes/admania-custom-metabox.php:952
+#: lib/includes/admania-custom-metabox.php:1025
+#: lib/includes/admania-custom-metabox.php:1098
+#@ admania
+msgid "Image Link Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:181
+#: lib/includes/admania-custom-metabox.php:272
+#: lib/includes/admania-custom-metabox.php:369
+#: lib/includes/admania-custom-metabox.php:442
+#: lib/includes/admania-custom-metabox.php:622
+#: lib/includes/admania-custom-metabox.php:768
+#: lib/includes/admania-custom-metabox.php:859
+#: lib/includes/admania-custom-metabox.php:956
+#: lib/includes/admania-custom-metabox.php:1029
+#: lib/includes/admania-custom-metabox.php:1102
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1545
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1611
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1690
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1756
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1835
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1901
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1980
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2059
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2138
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2220
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2326
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2417
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2517
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2693
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2772
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2875
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2966
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3066
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3145
+#@ admania
+msgid "Choose the Ad Image"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:185
+#: lib/includes/admania-custom-metabox.php:276
+#: lib/includes/admania-custom-metabox.php:373
+#: lib/includes/admania-custom-metabox.php:446
+#: lib/includes/admania-custom-metabox.php:626
+#: lib/includes/admania-custom-metabox.php:772
+#: lib/includes/admania-custom-metabox.php:863
+#: lib/includes/admania-custom-metabox.php:960
+#: lib/includes/admania-custom-metabox.php:1033
+#: lib/includes/admania-custom-metabox.php:1106
+#@ admania
+msgid "Choose the Image Ad Url"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:186
+#: lib/includes/admania-custom-metabox.php:277
+#: lib/includes/admania-custom-metabox.php:374
+#: lib/includes/admania-custom-metabox.php:447
+#: lib/includes/admania-custom-metabox.php:536
+#: lib/includes/admania-custom-metabox.php:554
+#: lib/includes/admania-custom-metabox.php:627
+#: lib/includes/admania-custom-metabox.php:773
+#: lib/includes/admania-custom-metabox.php:864
+#: lib/includes/admania-custom-metabox.php:961
+#: lib/includes/admania-custom-metabox.php:1034
+#: lib/includes/admania-custom-metabox.php:1107
+#@ admania
+msgid "Upload Image"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:187
+#: lib/includes/admania-custom-metabox.php:278
+#: lib/includes/admania-custom-metabox.php:375
+#: lib/includes/admania-custom-metabox.php:448
+#: lib/includes/admania-custom-metabox.php:537
+#: lib/includes/admania-custom-metabox.php:555
+#: lib/includes/admania-custom-metabox.php:628
+#: lib/includes/admania-custom-metabox.php:774
+#: lib/includes/admania-custom-metabox.php:865
+#: lib/includes/admania-custom-metabox.php:962
+#: lib/includes/admania-custom-metabox.php:1035
+#: lib/includes/admania-custom-metabox.php:1108
+#@ admania
+msgid "UploadImage"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:191
+#: lib/includes/admania-custom-metabox.php:282
+#: lib/includes/admania-custom-metabox.php:379
+#: lib/includes/admania-custom-metabox.php:452
+#: lib/includes/admania-custom-metabox.php:632
+#: lib/includes/admania-custom-metabox.php:778
+#: lib/includes/admania-custom-metabox.php:869
+#: lib/includes/admania-custom-metabox.php:966
+#: lib/includes/admania-custom-metabox.php:1039
+#: lib/includes/admania-custom-metabox.php:1112
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1551
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1617
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1696
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1762
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1841
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1907
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1986
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2065
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2144
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2226
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2332
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2423
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2523
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2699
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2778
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2881
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2972
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3072
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3151
+#@ admania
+msgid "Image Ad Anchor Link"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:195
+#: lib/includes/admania-custom-metabox.php:286
+#: lib/includes/admania-custom-metabox.php:383
+#: lib/includes/admania-custom-metabox.php:456
+#: lib/includes/admania-custom-metabox.php:563
+#: lib/includes/admania-custom-metabox.php:636
+#: lib/includes/admania-custom-metabox.php:782
+#: lib/includes/admania-custom-metabox.php:873
+#: lib/includes/admania-custom-metabox.php:970
+#: lib/includes/admania-custom-metabox.php:1043
+#: lib/includes/admania-custom-metabox.php:1116
+#@ admania
+msgid "Enter the Image Ad Anchor Link"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:203
+#: lib/includes/admania-custom-metabox.php:790
+#@ admania
+msgid "Content Inner Top Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:210
+#: lib/includes/admania-custom-metabox.php:797
+#@ admania
+msgid "Active the Content Inner Top Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:214
+#: lib/includes/admania-custom-metabox.php:801
+#@ admania
+msgid "Enable the Content Inner Top Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:224
+#: lib/includes/admania-custom-metabox.php:315
+#: lib/includes/admania-custom-metabox.php:811
+#: lib/includes/admania-custom-metabox.php:902
+#@ admania
+msgid "Ad Positions Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:228
+#: lib/includes/admania-custom-metabox.php:325
+#: lib/includes/admania-custom-metabox.php:815
+#: lib/includes/admania-custom-metabox.php:912
+#@ admania
+msgid "Choose the Ad Alignment Place"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:294
+#: lib/includes/admania-custom-metabox.php:881
+#@ admania
+msgid "Content Nth Para Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:301
+#: lib/includes/admania-custom-metabox.php:888
+#@ admania
+msgid "Active the Content Nth Para Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:305
+#: lib/includes/admania-custom-metabox.php:892
+#@ admania
+msgid "Enable the Content Nth Para Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:319
+#: lib/includes/admania-custom-metabox.php:906
+#@ admania
+msgid "Enter the Ad Position Number"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:391
+#: lib/includes/admania-custom-metabox.php:978
+#@ admania
+msgid "Content Bottom Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:398
+#: lib/includes/admania-custom-metabox.php:985
+#@ admania
+msgid "Active the Content Bottom Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:402
+#: lib/includes/admania-custom-metabox.php:989
+#@ admania
+msgid "Enable the Content Bottom Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:464
+#@ admania
+msgid "After OptinBox Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:471
+#@ admania
+msgid "Active the After OptinBox Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:475
+#@ admania
+msgid "Enable the After OptinBox Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:489
+#: lib/includes/admania-custom-metabox.php:493
+#@ admania
+msgid "Paste the Ad1 Html Code"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:497
+#: lib/includes/admania-custom-metabox.php:501
+#@ admania
+msgid "Paste the Ad2 Html Code"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:510
+#: lib/includes/admania-custom-metabox.php:514
+#@ admania
+msgid "Paste the Google Responsive Code Ad Ad1"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:518
+#: lib/includes/admania-custom-metabox.php:522
+#@ admania
+msgid "Paste the Google Responsive Code Ad Ad2"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:527
+#@ admania
+msgid "Image Link Ad1 Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:531
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2604
+#@ admania
+msgid "Choose the Ad1 Image"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:535
+#@ admania
+msgid "Choose the Image Ad1 Url"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:541
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2610
+#@ admania
+msgid "Image Ad1 Anchor Link"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:545
+#@ admania
+msgid "Enter the Image Ad1 Anchor Link"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:549
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2614
+#@ admania
+msgid "Choose the Ad2 Image"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:553
+#@ admania
+msgid "Choose the Image Ad2 Url"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:559
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2620
+#@ admania
+msgid "Image Ad2 Anchor Link"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:571
+#: lib/includes/admania-custom-metabox.php:1051
+#@ admania
+msgid "Content Bottom Sticky Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:578
+#: lib/includes/admania-custom-metabox.php:1058
+#@ admania
+msgid "Active the Content Bottom Sticky Ad Settings"
+msgstr ""
+
+#: lib/includes/admania-custom-metabox.php:582
+#: lib/includes/admania-custom-metabox.php:1062
+#@ admania
+msgid "Enable the Content Bottom Sticky Ad Settings ?"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:373
+#, php-format
+#@ admania
+msgid "Page %s"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:467
+#: lib/includes/admania-customtemp-tags.php:586
+#@ admania
+msgid "You May Also Like"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:517
+#: lib/includes/admania-customtemp-tags.php:635
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:124
+#@ admania
+msgid "image"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:724
+#@ admania
+msgid "&larr; Previous"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:725
+#@ admania
+msgid "Next &rarr;"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:821
+#: lib/includes/admania-customtemp-tags.php:879
+#: tempslider-parts/sliderandfeatured-content.php:139
+#: tempslider-parts/sliderandfeatured-content.php:292
+#@ admania
+msgid "img"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:903
+#@ admania
+msgid "Home"
+msgstr ""
+
+#: lib/includes/admania-customtemp-tags.php:1267
+#: lib/includes/admania-customtemp-tags.php:1299
+#@ admania
+msgid "Views"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:24
+#@ admania
+msgid "Admania Theme Options"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:25
+#@ admania
+msgid "Admania Backup Options"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:25
+#@ admania
+msgid "Admania Import/Export"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:73
+#@ admania
+msgid "Backup/Restore Theme Options"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:79
+#@ admania
+msgid "Backup/Export"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:82
+#@ admania
+msgid "Here are the stored settings for the current theme:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:88
+#@ admania
+msgid "Download as file"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:91
+#@ admania
+msgid "Restore/Import"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:95
+#@ admania
+msgid "Restore a previous backup"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-import-export.php:100
+#@ admania
+msgid "Upload file"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:141
+#@ admania
+msgid "Save Changes"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:235
+#@ admania
+msgid "Theme settings have been reset and default values loaded. Please save changes to Continue"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:244
+#@ admania
+msgid "Options saved"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:300
+#@ admania
+msgid "Admania Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:305
+#@ admania
+msgid "Version 1.0"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:312
+#@ admania
+msgid "Documentation"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:319
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:354
+#@ admania
+msgid "General Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:322
+#@ admania
+msgid "Slider Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:325
+#@ admania
+msgid "Featured Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:328
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:898
+#@ admania
+msgid "Font Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:331
+#@ admania
+msgid "post & pages Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:334
+#@ admania
+msgid "Ad Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:337
+#@ admania
+msgid "Newsletter Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:340
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3247
+#@ admania
+msgid "Footer Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:343
+#@ admania
+msgid "Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:346
+#@ admania
+msgid "Custom Css Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:359
+#@ admania
+msgid "Custom Logo"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:364
+#@ admania
+msgid "Show custom Logo"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:372
+#@ admania
+msgid "Custom logo"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:375
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1548
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1614
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1693
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1759
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1838
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1904
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1983
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2062
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2141
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2223
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2329
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2420
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2520
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2607
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2617
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2696
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2775
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2878
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2969
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3069
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3148
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3297
+#@ admania
+msgid "Upload"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:377
+#@ admania
+msgid "Recommended Size 300 x 100px"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:379
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1549
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1615
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1694
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1760
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1839
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1905
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1984
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2063
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2142
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2224
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2330
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2421
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2521
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2608
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2618
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2697
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2776
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2879
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2970
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3070
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3149
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3301
+#@ admania
+msgid "logoimage"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:385
+#@ admania
+msgid "Header Search Box"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:390
+#@ admania
+msgid "Disable Header Search Box:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:402
+#@ admania
+msgid "Layout Selection"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:406
+#@ admania
+msgid "Whole Layout Width:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:409
+#@ admania
+msgid "px"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:411
+#@ admania
+msgid "Note : Dont write pixels in the above column (eg. 1250)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:418
+#@ admania
+msgid "Header Social Follow Links"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:423
+#@ admania
+msgid "Header Facebook Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:427
+#@ admania
+msgid "Header Twitter Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:431
+#@ admania
+msgid "Header Googleplus Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:435
+#@ admania
+msgid "Header Linkedin Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:439
+#@ admania
+msgid "Header Youtube Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:443
+#@ admania
+msgid "Header Instagram Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:447
+#@ admania
+msgid "Header Pinterest Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:451
+#@ admania
+msgid "Header Rss Feed Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:459
+#@ admania
+msgid "Responsive"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:464
+#@ admania
+msgid "Disable Responsive"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:479
+#@ admania
+msgid "Theme Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:484
+#@ admania
+msgid "Body Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:488
+#@ admania
+msgid "Font Color:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:492
+#@ admania
+msgid "Body Background Color:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:502
+#@ admania
+msgid "Header Top Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:506
+#@ admania
+msgid "Header Top Boxshawdow Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:510
+#@ admania
+msgid "Header Top BorderBottom Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:514
+#@ admania
+msgid "Header Top Social Follow Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:522
+#@ admania
+msgid "Header Bottom & Widget Title Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:526
+#@ admania
+msgid "Header Bottom Background color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:530
+#@ admania
+msgid "Primary Nav Text color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:534
+#@ admania
+msgid "Header Search input text background color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:538
+#@ admania
+msgid "Header Search Text Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:542
+#@ admania
+msgid "Widget Title Text color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:546
+#@ admania
+msgid "Widget Title Text Background Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:555
+#@ admania
+msgid "Slider Section & Category Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:559
+#@ admania
+msgid "Slider Heading & Content Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:563
+#@ admania
+msgid "Category & Slider Next/prev Background Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:567
+#@ admania
+msgid "Category Text Color:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:576
+#@ admania
+msgid "Links & Headings Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:580
+#@ admania
+msgid "Link Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:584
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:647
+#@ admania
+msgid "Link Hover color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:588
+#@ admania
+msgid "All Heading Color:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:597
+#@ admania
+msgid "Theme Button Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:601
+#@ admania
+msgid "Theme Button Background Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:605
+#@ admania
+msgid "Theme Button Color Text Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:609
+#@ admania
+msgid "Theme Button Background Hover Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:613
+#@ admania
+msgid "Theme Button Color Text Hover Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:617
+#@ admania
+msgid "Theme Continue Reading Background Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:621
+#@ admania
+msgid "Theme Continue Reading Color Text Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:625
+#@ admania
+msgid "Theme Continue Reading Background Hover Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:629
+#@ admania
+msgid "Theme Continue Reading Color Text Hover Color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:638
+#@ admania
+msgid "Post Content"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:643
+#@ admania
+msgid "link color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:651
+#@ admania
+msgid "Link Type"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:655
+#@ admania
+msgid "Select the Link Type"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:671
+#@ admania
+msgid "Post Optin Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:675
+#@ admania
+msgid "Post Optin Background color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:679
+#@ admania
+msgid "Post Optin Border color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:688
+#@ admania
+msgid "Comment Section Color Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:692
+#@ admania
+msgid "Comment Section Background color"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:703
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:712
+#@ admania
+msgid "Home Page Slider Section Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:717
+#@ admania
+msgid "Enable SliderPost Section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:726
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:827
+#@ admania
+msgid "please use anyone of the following methods to display the posts in featuredpostsection"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:732
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:833
+#@ admania
+msgid "Method1 to display the post using Category name"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:736
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:837
+#@ admania
+msgid "Select the Categories to display the post in featuredpost section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:740
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:841
+#@ admania
+msgid "select the categories"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:754
+#@ admania
+msgid "Method2 to display the post using post ids"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:758
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:859
+#@ admania
+msgid "Enter the post id to display the post in the featured  section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:760
+#@ admania
+msgid "Enter the post id like this 32,33,33"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:765
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:866
+#@ admania
+msgid "Method3 to display the post using Multiple Category ids"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:769
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:870
+#@ admania
+msgid "Enter the category id to display the post in the featured  section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:771
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:872
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1564
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1630
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1709
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1775
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1854
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1920
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1999
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2078
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2157
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2239
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2357
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2457
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2536
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2633
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2712
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2791
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2906
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3006
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3085
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3164
+#@ admania
+msgid "Enter the category id like this 32,33,33"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:776
+#@ admania
+msgid "Enter Post Count "
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:781
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:877
+#@ admania
+msgid "Choose the random (or) latest to display post"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:785
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:881
+#@ admania
+msgid "Select"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:807
+#@ admania
+msgid "After Slider Featured Section Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:811
+#@ admania
+msgid "After Slider Featured Selection "
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:817
+#@ admania
+msgid "Enable After Slider Featured Section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:855
+#@ admania
+msgid "Method2 to display the post using Multiple post ids"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:861
+#@ admania
+msgid "Enter the post id like this 32,33,33,"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:903
+#@ admania
+msgid "Font Family, Size, Line Height,colors and Heading Styles"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:907
+#@ admania
+msgid "Body Font Family:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:911
+#@ admania
+msgid "Select the Font"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:921
+#@ admania
+msgid "Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:925
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:962
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:997
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1032
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1067
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1102
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1137
+#@ admania
+msgid "Select the Font Size"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:935
+#@ admania
+msgid "Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:939
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:975
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1010
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1045
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1080
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1115
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1150
+#@ admania
+msgid "Select the Line Height"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:954
+#@ admania
+msgid "Heading H1 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:958
+#@ admania
+msgid "Heading H1 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:971
+#@ admania
+msgid "Heading H1 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:989
+#@ admania
+msgid "Heading H2 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:993
+#@ admania
+msgid "Heading H2 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1006
+#@ admania
+msgid "Heading H2 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1024
+#@ admania
+msgid "Heading H3 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1028
+#@ admania
+msgid "Heading H3 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1041
+#@ admania
+msgid "Heading H3 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1059
+#@ admania
+msgid "Heading H4 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1063
+#@ admania
+msgid "Heading H4 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1076
+#@ admania
+msgid "Heading H4 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1094
+#@ admania
+msgid "Heading H5 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1098
+#@ admania
+msgid "Heading H5 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1111
+#@ admania
+msgid "Heading H5 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1129
+#@ admania
+msgid "Heading H6 Fontsize,lineheight Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1133
+#@ admania
+msgid "Heading H6 Font Size:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1146
+#@ admania
+msgid "Heading H6 Line Height:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1166
+#@ admania
+msgid "Post and Page Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1171
+#@ admania
+msgid "By Line for Post"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1176
+#@ admania
+msgid "Disable By Line"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1185
+#@ admania
+msgid "Disable Posted by"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1194
+#@ admania
+msgid "Disable Posted On"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1203
+#@ admania
+msgid "Disable Category"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1212
+#@ admania
+msgid "Disable Comments"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1225
+#@ admania
+msgid "By Line for Page"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1230
+#@ admania
+msgid "Show By Line"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1239
+#@ admania
+msgid "Show Posted by"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1248
+#@ admania
+msgid "Show Posted On"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1257
+#@ admania
+msgid "Show Views"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1270
+#@ admania
+msgid "Admania Breadcrumbs"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1275
+#@ admania
+msgid "Show Breadcrumbs On Posts"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1284
+#@ admania
+msgid "Show Breadcrumbs On Pages"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1293
+#@ admania
+msgid "Show Breadcrumbs On Archives"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1308
+#@ admania
+msgid "Post Socialshare"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1313
+#@ admania
+msgid "Disable Post Social share"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1322
+#@ admania
+msgid "Disable Facebook:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1331
+#@ admania
+msgid "Disable Twitter:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1340
+#@ admania
+msgid "Disable Gplus :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1349
+#@ admania
+msgid "Disable Linkedin:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1358
+#@ admania
+msgid "Disable Pinterest:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1367
+#@ admania
+msgid "Enable Buffer:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1376
+#@ admania
+msgid "Enable Stumbleupon:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1385
+#@ admania
+msgid "Enable Reddit:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1394
+#@ admania
+msgid "Enable Whatsapp:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1405
+#@ admania
+msgid "Related Post By Category Or Tag"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1409
+#@ admania
+msgid "Disable Related Post By Category:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1418
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1433
+#@ admania
+msgid "Related Post Count:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1424
+#@ admania
+msgid "Enable Related Post By Tag:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1441
+#@ admania
+msgid "Pagination Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1445
+#@ admania
+msgid "Disable Single Post Previous / Next Pagination"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1454
+#@ admania
+msgid "Disable Home Page Previous / Next Pagination Number"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1469
+#@ admania
+msgid "Disable Comments on posts?"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1478
+#@ admania
+msgid "Disable Comments on pages?"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1490
+#@ admania
+msgid "Ads management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1496
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1502
+#@ admania
+msgid "Header Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1498
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1643
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1788
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1933
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2012
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2091
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2171
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2253
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2370
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2470
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2549
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2646
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2725
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2804
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2919
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3019
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3098
+#@ admania
+msgid "Adimage"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1508
+#@ admania
+msgid "Header Left Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1512
+#@ admania
+msgid "Enable the Header Left Section Ads :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1520
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1586
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1665
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1731
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1810
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1876
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1955
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2034
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2113
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2195
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2277
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2392
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2492
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2571
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2668
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2747
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2826
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2941
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3041
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3120
+#@ admania
+msgid "Notes* : Please use anyone of the following section to setup the ad options"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1523
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1527
+#@ admania
+msgid "Top Section Left Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1529
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1595
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1674
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1740
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1819
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1885
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1964
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2043
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2122
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2204
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2286
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2401
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2501
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2580
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2584
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2677
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2756
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2835
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2950
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3050
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3129
+#@ admania
+msgid "Paste the Html Code Here"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1532
+#@ admania
+msgid "Top Section Left Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1536
+#@ admania
+msgid "Top Section Left Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1538
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1604
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1683
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1749
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1828
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1894
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1973
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2052
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2131
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2213
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2307
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2410
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2510
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2593
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2597
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2686
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2765
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2856
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2959
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3059
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3138
+#@ admania
+msgid "Paste the Google Responsive Code Here"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1541
+#@ admania
+msgid "Top Section Left Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1553
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1619
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1698
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1764
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1843
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1909
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1988
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2067
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2146
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2228
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2334
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2425
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2525
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2612
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2622
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2701
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2780
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2883
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2974
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3074
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3153
+#@ admania
+msgid "Paste Ad Image Anchor Link Here"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1556
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1622
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1701
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1767
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1846
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1912
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1991
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2070
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2149
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2231
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2349
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2428
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2528
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2625
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2704
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2783
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2898
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2977
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3077
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3156
+#@ admania
+msgid "Notes* : The Given Below Section is Common Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1558
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1624
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1703
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1769
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1848
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1914
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1993
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2072
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2151
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2233
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2351
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2451
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2530
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2627
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2706
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2785
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2900
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3000
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3079
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3158
+#@ admania
+msgid "Remove The Ads On UnRequired Pages"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1562
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1628
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1707
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1773
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1852
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1918
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1997
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2076
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2155
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2237
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2355
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2455
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2534
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2631
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2710
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2789
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2904
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3004
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3083
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3162
+#@ admania
+msgid "Enter the Category Ids to Remove Ad At This Category Page"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1566
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1632
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1711
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1777
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1856
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1922
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2001
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2080
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2159
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2241
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2359
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2459
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2538
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2635
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2714
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2793
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2908
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3008
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3087
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3166
+#@ admania
+msgid "Enter the Tag Ids to Remove Ad At This tag Page"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1568
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1634
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1713
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1779
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1858
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1924
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2003
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2082
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2161
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2243
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2361
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2461
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2540
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2637
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2716
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2795
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2910
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3010
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3089
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3168
+#@ admania
+msgid "Enter the Tag Ids like this 32,33,33"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1574
+#@ admania
+msgid "Header Right Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1578
+#@ admania
+msgid "Enable the Header Right Section Ads :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1589
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1593
+#@ admania
+msgid "Top Section Right Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1598
+#@ admania
+msgid "Top Section Right Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1602
+#@ admania
+msgid "Top Section Right Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1607
+#@ admania
+msgid "Top Section Right Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1641
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1647
+#@ admania
+msgid "After Header Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1653
+#@ admania
+msgid "After Header Left Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1657
+#@ admania
+msgid "Enable the After Header Left Section Ads :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1668
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1672
+#@ admania
+msgid "After Header Section Left Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1677
+#@ admania
+msgid "After Header Section Left Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1681
+#@ admania
+msgid "After Header Section Left Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1686
+#@ admania
+msgid "After Header Section Left Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1719
+#@ admania
+msgid "After Header Section Right Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1723
+#@ admania
+msgid "Enable the After Header Section Right Ads :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1734
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1738
+#@ admania
+msgid "After Header Section Right Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1743
+#@ admania
+msgid "After Header Section Right Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1747
+#@ admania
+msgid "After Header Section Right Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1752
+#@ admania
+msgid "After Header Section Right Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1786
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1792
+#@ admania
+msgid "Content Section Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1798
+#@ admania
+msgid "Left Sidebar Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1802
+#@ admania
+msgid "Enable the Left Sidebar Ad:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1813
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1817
+#@ admania
+msgid "Left Sidebar Section Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1822
+#@ admania
+msgid "Left Sidebar Section Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1826
+#@ admania
+msgid "Left Sidebar Section Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1831
+#@ admania
+msgid "Left Sidebar Section Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1864
+#@ admania
+msgid "Right Sidebar Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1868
+#@ admania
+msgid "Enable the Right Sidebar Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1879
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1883
+#@ admania
+msgid "Right Sidebar Section Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1888
+#@ admania
+msgid "Right Sidebar Section Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1892
+#@ admania
+msgid "Right Sidebar Section Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1897
+#@ admania
+msgid "Right Sidebar Section Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1931
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1937
+#@ admania
+msgid "Home Page After Slider Section Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1943
+#@ admania
+msgid "After Slider Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1947
+#@ admania
+msgid "Enable the After Slider Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1958
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1962
+#@ admania
+msgid "After Slider Section Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1967
+#@ admania
+msgid "After Slider Section Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1971
+#@ admania
+msgid "After Slider Section Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:1976
+#@ admania
+msgid "After Slider Section Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2010
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2016
+#@ admania
+msgid "Home / Archives After Grid Post Section Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2022
+#@ admania
+msgid "After Grid Post Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2026
+#@ admania
+msgid "Enable the After Grid Post Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2037
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2041
+#@ admania
+msgid "After Grid Post Section Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2046
+#@ admania
+msgid "After Grid Post Section Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2050
+#@ admania
+msgid "After Grid Post Section Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2055
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2134
+#@ admania
+msgid "After Grid Post Section Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2089
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2095
+#@ admania
+msgid "Before Footer Section Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2101
+#@ admania
+msgid "Home / Archives Before Footer Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2105
+#@ admania
+msgid "Enable the Before Footer Section Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2116
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2120
+#@ admania
+msgid "Home / Archives Before Footer Section Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2125
+#@ admania
+msgid "Home / Archives Before Footer Section Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2129
+#@ admania
+msgid "Home / Archives Before Footer Section Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2169
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2177
+#@ admania
+msgid "Before Single Post Content Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2172
+#@ admania
+msgid "Click Here To Setup the Before Single Post Content Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2183
+#@ admania
+msgid "Before Single Post Content Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2187
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2739
+#@ admania
+msgid "Enable the Before Single Post Content Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2198
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2202
+#@ admania
+msgid "Before Single Post Content Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2207
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2680
+#@ admania
+msgid "Before Single Post Content Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2211
+#@ admania
+msgid "Before Single Post Content Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2216
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2689
+#@ admania
+msgid "Before Single Post Content Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2251
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2259
+#@ admania
+msgid "Single Post Inner Section Top Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2254
+#@ admania
+msgid "Click Here To Setup the Single PostInner Content Top Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2265
+#@ admania
+msgid "Single Post Inner Top Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2269
+#@ admania
+msgid "Enable the Single Post Inner Top Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2280
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2284
+#@ admania
+msgid "Single Post Inner Top Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2289
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2310
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2337
+#@ admania
+msgid "Single Post Inner Top Ad Alignment"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2301
+#@ admania
+msgid "Single Post Inner Top Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2305
+#@ admania
+msgid "Single Post Inner Top Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2322
+#@ admania
+msgid "Single Post Inner Top Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2368
+#@ admania
+msgid "Single Post Inside Ads after nth paragraph"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2374
+#@ admania
+msgid "Single Post Inside Ads after nth paragraph :"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2380
+#@ admania
+msgid "Single Post Inner Nth Para Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2384
+#@ admania
+msgid "Enable the Single Post Inner Nth Para Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2395
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2399
+#@ admania
+msgid "Single Post Inner Nth Para Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2404
+#@ admania
+msgid "Single Post Inner Nth Para Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2408
+#@ admania
+msgid "Single Post Inner Nth Para Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2413
+#@ admania
+msgid "Single Post Inner Nth Para Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2430
+#@ admania
+msgid "Single Post Inner Nth Para Ad Position"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2434
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2983
+#@ admania
+msgid "Paragraph number:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2439
+#@ admania
+msgid "Single Post Inner Nth Para Ad Alignment"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2468
+#@ admania
+msgid "Post Content Bottom Ads Managements"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2474
+#@ admania
+msgid "Post Content Bottom Ads Managements:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2480
+#@ admania
+msgid "Single Post Content Bottom Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2484
+#@ admania
+msgid "Enable the Single Post Content Bottom Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2495
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2499
+#@ admania
+msgid "Single Post Content Bottom  Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2504
+#@ admania
+msgid "Single Post Content Bottom  Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2508
+#@ admania
+msgid "Single Post Content Bottom  Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2513
+#@ admania
+msgid "Single Post Content Bottom  Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2547
+#@ admania
+msgid "Post Bottom Ads After Optin Box Section"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2553
+#@ admania
+msgid "Post Bottom Ads After Optin Box Section:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2559
+#@ admania
+msgid "Single Post After Optin Box Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2563
+#@ admania
+msgid "Enable the Single Post After Optin Box Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2574
+#@ admania
+msgid "Single Post After Optin Box Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2578
+#@ admania
+msgid "Single Post After Optin Box Ad1 ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2582
+#@ admania
+msgid "Single Post After Optin Box Ad2 ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2587
+#@ admania
+msgid "Single Post After Optin Box Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2591
+#@ admania
+msgid "Single Post After Optin Box Ad1 ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2595
+#@ admania
+msgid "Single Post After Optin Box Ad2 ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2600
+#@ admania
+msgid "Single Post After Optin Box Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2644
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2650
+#@ admania
+msgid "Single Post Content Bottom Sticky Ads"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2656
+#@ admania
+msgid "Single Post Sticky Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2660
+#@ admania
+msgid "Enable the Single Post Sticky Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2671
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2675
+#@ admania
+msgid "Single Post Sticky Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2684
+#@ admania
+msgid "Single Post Sticky Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2723
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2729
+#@ admania
+msgid "Before Page Content Section Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2735
+#@ admania
+msgid "Before Page Content Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2750
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2754
+#@ admania
+msgid "Before Page Content Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2759
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3132
+#@ admania
+msgid "Before Page Content Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2763
+#@ admania
+msgid "Before Page Content Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2768
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3141
+#@ admania
+msgid "Before Page Content Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2802
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2808
+#@ admania
+msgid "Page Inner Section Top Ads Management"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2814
+#@ admania
+msgid "Page Content Top Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2818
+#@ admania
+msgid "Enable the Page Content Top Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2829
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2833
+#@ admania
+msgid "Page Content Top Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2838
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2859
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2886
+#@ admania
+msgid "Page Content Top Ad Alignment"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2850
+#@ admania
+msgid "Page Content Top Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2854
+#@ admania
+msgid "Page Content Top Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2871
+#@ admania
+msgid "Page Content Top Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2917
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2923
+#@ admania
+msgid "Page Content Inside Ads After Nth paragraph"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2929
+#@ admania
+msgid "Page Content Nth Para Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2933
+#@ admania
+msgid "Enable the Page Content Nth Para Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2944
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2948
+#@ admania
+msgid "Page Content Nth Para Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2953
+#@ admania
+msgid "Page Content Nth Para Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2957
+#@ admania
+msgid "Page Content Nth Para Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2962
+#@ admania
+msgid "Page Content Nth Para Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2979
+#@ admania
+msgid "Page Content Nth Para Ad Position"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:2988
+#@ admania
+msgid "Page Content Nth Para Ad Alignment"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3017
+#@ admania
+msgid "Page Content Bottom Ads Managements"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3023
+#@ admania
+msgid "Page Content Bottom Ads Managements:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3029
+#@ admania
+msgid "Page Content Bottom Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3033
+#@ admania
+msgid "Enable the Page Content Bottom Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3044
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3048
+#@ admania
+msgid "Page Content Bottom  Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3053
+#@ admania
+msgid "Page Content Bottom  Ad ( Google Responsive Adsense Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3057
+#@ admania
+msgid "Page Content Bottom  Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3062
+#@ admania
+msgid "Page Content Bottom  Ad ( Image Link Ad )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3096
+#@ admania
+msgid "Page Content Bottom Sticky Ads Managements"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3102
+#@ admania
+msgid "Page Content Bottom Sticky Ads Managements:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3108
+#@ admania
+msgid "Page Content Bottom Sticky Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3112
+#@ admania
+msgid "Enable the Page Sticky Ad"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3123
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3127
+#@ admania
+msgid "Page Sticky Ad ( Html Ad Code )"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3136
+#@ admania
+msgid "Page Sticky Ad ( Google Responsive Adsense Code)"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3180
+#@ admania
+msgid "Post Optin Box"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3186
+#@ admania
+msgid "Post Optin box"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3191
+#@ admania
+msgid "Enable Post Optin:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3199
+#@ admania
+msgid "Paste the Optin code:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3207
+#@ admania
+msgid "Placeholder for Name"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3211
+#@ admania
+msgid "E-mail"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3215
+#@ admania
+msgid "Placeholder for E-mail"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3219
+#@ admania
+msgid "Hidden Files"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3223
+#@ admania
+msgid "URl"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3227
+#@ admania
+msgid "Submit Button Name"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3231
+#@ admania
+msgid "Post Optin Heading"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3235
+#@ admania
+msgid "Post Optin Paragraph"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3252
+#@ admania
+msgid "Footer Instagram Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3258
+#@ admania
+msgid "Enable Footer Instagram"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3267
+#@ admania
+msgid "Instagram userid: "
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3270
+#@ admania
+msgid "Click here to get userid & accesstoken"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3274
+#@ admania
+msgid "Instagram accesstokenID: "
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3281
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3294
+#@ admania
+msgid "Footer Custom Logo"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3286
+#@ admania
+msgid "Show Footer Custom Logo"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3299
+#@ admania
+msgid "Recommended Size 200 x 60px"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3307
+#@ admania
+msgid "Footer Social Follow Links"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3312
+#@ admania
+msgid "Footer Facebook Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3316
+#@ admania
+msgid "Footer Twitter Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3320
+#@ admania
+msgid "Footer Googleplus Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3324
+#@ admania
+msgid "Footer Linkedin Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3328
+#@ admania
+msgid "Footer Pinterest Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3332
+#@ admania
+msgid "Footer StumbleUpon Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3336
+#@ admania
+msgid "Footer Reddit Url:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3343
+#@ admania
+msgid "Footer Copyrighths Settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3347
+#@ admania
+msgid "Footer Copyrights Content:"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3358
+#@ admania
+msgid "Custom css Editor"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3363
+#@ admania
+msgid "Custom Css Editor"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3368
+#@ admania
+msgid "Css Editor"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3379
+#@ admania
+msgid "Reset to theme default settings"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3379
+#@ admania
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+#: lib/includes/admin/admania-themeoptions/admania-theme-settings.php:3380
+#@ admania
+msgid "reset"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:28
+#@ admania
+msgid "Admania - About Us Widget"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:29
+#@ admania
+msgid "Admania About Us Widget"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:53
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:48
+#: lib/includes/widgets/admania-widget-socialfollow.php:50
+#@ admania
+msgid "Title:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:59
+#@ admania
+msgid "Enter The About Us image Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:65
+#@ admania
+msgid "Enter The About Us Name:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:71
+#@ admania
+msgid "Enter The About Us Description:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:77
+#@ admania
+msgid "ReadMore text:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-aboutuswidget.php:83
+#@ admania
+msgid "ReadMore Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:27
+#@ admania
+msgid "Admania - Optin Box"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:28
+#@ admania
+msgid "Subscriber optin box"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:54
+#@ admania
+msgid "Optin Title:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:60
+#@ admania
+msgid "Sub Heading:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:66
+#@ admania
+msgid "Paste your optin html code ( then press the tab key to autofill the respective fields )"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:72
+#@ admania
+msgid "Name:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:79
+#@ admania
+msgid "Place holder name Text:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:85
+#@ admania
+msgid "E-mail:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:92
+#@ admania
+msgid "Place holder email Text:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:98
+#@ admania
+msgid "Action Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:104
+#@ admania
+msgid "Submit Button Text:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-optinbox.php:110
+#@ admania
+msgid "Hidden Fields:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:22
+#@ admania
+msgid "Admania - Recent Popular Post"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:23
+#@ admania
+msgid "Recent Popular Post"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:54
+#@ admania
+msgid "Enter The No of posts:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:60
+#@ admania
+msgid "Default Image Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:66
+#@ admania
+msgid "for Comment:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:72
+#@ admania
+msgid "for  Displaying current monthly Comments :"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:78
+#@ admania
+msgid "for  Displaying current yearly Comments :"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:84
+#@ admania
+msgid "for  Displaying Most view Posts:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:90
+#@ admania
+msgid "for  Displaying Monthly Most viewed Posts:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:96
+#@ admania
+msgid "for  Displaying Yearly Most viewed Posts:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:182
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:183
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:244
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:245
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:307
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:308
+#@ admania
+msgid "0 Comments"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:182
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:244
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:307
+#@ admania
+msgid "1 Comments"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:182
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:183
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:244
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:245
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:307
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:308
+#@ admania
+msgid "% Comments"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:199
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:261
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:324
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:386
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:446
+#: lib/includes/widgets/admania-widget-recentpopularpost.php:505
+#@ admania
+msgid "Sorry, no posts were found."
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:25
+#@ admania
+msgid "Admania - Social Follow"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:26
+#@ admania
+msgid "Social Follow"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:56
+#@ admania
+msgid "Facebook Link Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:62
+#@ admania
+msgid "Twitter Link Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:68
+#@ admania
+msgid "Google Link Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:74
+#@ admania
+msgid "Likedin Link Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:80
+#@ admania
+msgid "Youtube Link Url:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:86
+#@ admania
+msgid "Instagram Link Url Code:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:92
+#@ admania
+msgid "Pinterest Link Url Code:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:98
+#@ admania
+msgid "Rss Link Url Code:"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:151
+#@ admania
+msgid "Facebook"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:156
+#@ admania
+msgid "Twitter"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:161
+#@ admania
+msgid "Googleplus"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:166
+#@ admania
+msgid "linkedin"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:172
+#@ admania
+msgid "youtube"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:183
+#@ admania
+msgid "Pinterest"
+msgstr ""
+
+#: lib/includes/widgets/admania-widget-socialfollow.php:188
+#@ admania
+msgid "rss"
+msgstr ""
+
+#: page.php:44
+#: single.php:47
+#@ admania
+msgid "Sorry No Posts were Found..!"
+msgstr ""
+
+#: search.php:38
+#@ admania
+msgid "Search Results Found For"
+msgstr ""
+

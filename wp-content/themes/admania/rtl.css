@@ -1,0 +1,706 @@
+/*
+Theme Name: Admania
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+It's easy, just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+*/
+
+/*--------------------------------------------------------------
+	Table of Contents
+----------------------------------------------------------------
+	
+	1. Reset   	
+	2. Fontawesome Icons
+	3. Typographical Elements
+	4. Text Element
+	5. Superscript And Subscript
+	6. Links
+	7. Clearfix
+	8. Wordpressrequired by theme-check
+	9. Main SiteContent
+	   9.1 Header Section	   
+	   9.2 Primary NavMenu
+	   9.3 Header Searchbox
+	   9.4 Siteinner
+    10.Footer
+		10.1 FooterAttribution
+	11.Responsive css
+	   
+*/
+
+caption, th, td {
+	text-align:right;
+}
+blockquote:before, blockquote:after {
+	right:21px;
+	left:auto;
+}
+blockquote:after {
+	left:21px;
+	right:auto;
+}
+.fa-ul {
+	padding-right:0;
+	margin-right:2.14285714em;
+}
+.fa-li {
+	right:-2.14285714em;
+}
+.fa-li.fa-lg {
+	right:-1.85714286em;
+}
+.pull-right {
+	float:left;
+}
+.pull-left {
+	float:right;
+}
+.fa.pull-left {
+	margin-left:.3em;
+}
+.fa.pull-right {
+	margin-right:.3em;
+}
+.fa-stack-1x, .fa-stack-2x {
+	right:0;
+}
+.widget li a:before {
+	padding:0 0 0 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding:0 0 18px 0;
+}
+blockquote {
+	margin:0 0 20px 0;
+}
+.admania_nosidebar ul, .admania_nosidebar ol, .admania_contentareainner ul, .admania_contentareainner ol {
+	margin-right:5%;
+}
+dl {
+	margin:0 0 24px 0;
+}
+li > ul, li > ol {
+	margin:0 30px 0 0;
+}
+input[type="reset"], input[type="button"], input[type="submit"], button {
+	margin:0 0 25px 0;
+}
+.alignleft {
+	float:right;
+	margin:0 0 25px 25px !important;
+}
+.alignright {
+	float:left;
+	margin:0 25px 25px 0px !important;
+}
+.aligncenter {
+	margin-right:auto !important;
+	margin-left:auto !important;
+}
+.admania_stickypost {
+	margin:0 0 0 7px;
+}
+.wp-caption {
+	margin:0 0 1.5em 0;
+}
+.gallery {
+	text-align:right;
+}
+.bypostauthor {
+	border-right:1px solid #47a7d7;
+}
+.admania_lay3entrycontentleft {
+	float:right;
+	padding:15px 0 0 25px;
+}
+.admania_pagelinkstitle {
+	margin:0 0 0 10px;
+}
+.owl-loaded {
+	direction: ltr;
+}
+.admania_pagelinks .admania_pglnlksaf, .admania_pagination .page-numbers {
+	margin:0 0 0 10px;
+}
+.admania_lay2headerleft {
+	float:right;
+}
+.admania_lay2headerright {
+	float:left;
+	padding:19px 20px 0 0px;
+}
+.admania_menu .menu-item-has-children a:after {
+	padding:0 0px 0 6px;
+}
+.admania_menu, .admania_headertopleftalt {
+	float:right;
+}
+.admania_headertopleft, .admanina_afterheaderadleft {
+	float:right;
+}
+.admania_headertopright, .admania_headertoprightalt, .admania_headersearchform {
+	float:left;
+}
+.admania_headersearchform .search-form input[type="search"] {
+	left:53px;
+	right:auto;
+}
+.admania_whatsup a {
+	padding:0 7px 0 0px;
+}
+.admania_lay4headerright .search-form label {
+    float: none;
+}
+.admania_singleshare li a {
+	padding:0 0 0 10px;
+}
+.admania_secondarycontentarea .widget_admania_popular_post ul li:nth-child(2n+2) {
+	margin:0 0 18px 0px;
+}
+.admania_entrypgbyline .admania_entryauthor img {
+	margin:0 0 0 10px;
+}
+.admania_headertopadrgt {
+	float:left;
+}
+.admania_menu .menu .sub-menu, .admania_secondarymenu .menu .sub-menu {
+	text-align:right;
+}
+.admania_secondarymenu .menu .sub-menu .sub-menu, .admania_menu .menu .sub-menu .sub-menu {
+	right:100% !important;
+}
+.admania_ly2ftsection .admania_bly2featuredslider {
+	float:right;
+	padding:0 0 20px 16px;
+}
+.admania_listpst .admania_entryimage {
+	float:right;
+}
+.admania_listpst .admania_pstcnt {
+	margin:0 10px 0 0;
+}
+.admania_layt4entryheader {
+    text-align: right!important;
+}
+.admania_listpst .admania_entryftcontent {
+	text-align:right;
+	padding:0px 25px 0 0;
+}
+.admania_gridpstlayt3 {
+	margin:0 0 2% 4%;
+}
+.admania_layout3post .admania_gridpstlayt3:nth-child(3n+3) {
+	margin:0 0 2% 0%;
+}
+.admania_gridpstlayt3 .admania_gridpost_entryfooter .admania_pstrdmr {
+	padding:8px 9px 8px 9px;
+}
+.admania_entryftcontent .admania_entryheader, .admania_entryftcontent .admania_entrycontent, .admania_entryftcontent .admania_entryfooter {
+	text-align:right;
+}
+.admania_ftdcategorymeta1 span {
+	padding:0 0 0 4px;
+}
+.admania_featuredcategory1 {
+	float:right;
+	padding:0 16px 0 0;
+}
+
+.admania_fontaws:before {
+	padding:0 0 0 1px;
+}
+.admania_secondarysidebar .calendar_wrap td, .admania_secondarysidebar .calendar_wrap th {
+	margin:0 0 -1px -1px;
+}
+.admania_secondarycontentarea {
+	float:right;
+	padding:0 0 0 40px;
+}
+.admania_viewcnt {
+	float:left;
+}
+.admania_lay4_menu {
+	    float: none  !important;
+}
+.admania_stylishad {
+	left:0;
+	right:auto;
+}
+.admania_tag {
+	float:right;
+}
+.admania_ftrbtmwdgt {
+	left:0;
+	right:auto;
+}
+.admania_related_posts ul {
+	margin-right:0;
+}
+.admania_related_posts ul li {
+	margin:0 0 10px 17px;
+}
+.admania_related_posts ul li:nth-child(3n+3) {
+	margin:0 0 10px 0px;
+}
+.admania_postsharecnt {
+	float:left;
+	text-align:left;
+}
+.admania_lay3headerright {
+	float:left;
+}
+.admania_secondarysidebar .widget_admania_popular_post li {
+	margin:0 0 20px 0px;
+}
+.admania_optin input[type="text"] {
+	padding:17px 47px 17px 9px;
+}
+.admania_nicon:before {
+	right:18px;
+	left:auto;
+}
+.reply a:before {
+	padding:0 0 0 10px;
+}
+.admania_postbtminnerad {
+	margin:0px 0 10px 44px;
+}
+.admania_postbtminnerad:last-child {
+	margin:0px 0 10px 0px;
+}
+.admania_commentlist .comment-author img {
+	margin:0 0 20px 20px;
+	float:right;
+}
+.reply {
+	text-align:left;
+}
+.admania_commentlist {
+	margin-right:0 !important;
+}
+.admania_contentarea {
+	float:right;
+}
+.admania_contentareainner {
+	float:left;
+}
+.admania_primarycontentarea {
+	float:left;	
+	padding:0 26px 0 0px;
+}
+.widget_admania_popular_post ul li {
+	margin:0 0 20px 20px;
+}
+.search-form label {
+	float:right;
+}
+.search-form input[type="submit"] {
+	float:left;
+}
+.tagcloud a {
+	padding:2px 14px 2px 6px;
+	margin:0 0 10px 3px;
+}
+.admania_secondarysidebar .admania_widgetsocial a {
+	margin:0 0 14px 8px;
+}
+.widget_admania_popular_post ul li:nth-child(2n+2) {
+	margin:0 0 7px 0px;
+}
+.admania_entrymetablne {
+	right:-9px;
+}
+.admania_readmorelink {
+	float:right;
+}
+.admania_readmorelink a:after {
+	right:5px;
+	left:5px;
+}
+.admania_entryftrscl {
+	float:left;
+}
+.admania_widgetsocial a {
+	margin:0 0 19px 25px;
+}
+.admania_gridentry {
+	margin:0 0 5px 26px;
+}
+.admania_gridsecondentry {
+	margin:0 0 5px 0px;
+}
+.admania_widgettit:before {
+	right:0;
+}
+.admania_widgettit .admania_widgetsbrtit {
+	padding:7px 14px 7px 14px;
+}
+.admania_author_link {
+	float:right;
+}
+.admanina_afterheaderadright, .admania_author_social {
+	float:left;
+}
+.admania_authorbox img {
+	float:right;
+	margin:0 0 30px 30px;
+}
+.admania_prenext .nav-previous, .admania_prenext .nav-previous span, .admania_prenext .nav-next, .admania_prenext .nav-next span {
+	float:right;
+}
+.admania_prenext .nav-previous {
+	border-left:1px solid #eee;
+}
+.admania_prenext .nav-previous span, .admania_prenext .nav-next span {
+	padding:0 0 0 10px;
+}
+.admania_prenext .nav-next span {
+	padding:0 10px 0 0px;
+}
+.admania_prenext .nav-next, .admania_prenext .nav-next span {
+	float:left;
+	text-align:left;
+}
+.admania_postoptionbox .admania_nicon, .admania_postoptionbox .admania_eicon {
+	margin:0 0 0 1em;
+}
+.admania_postoptionbox input[type="text"] {
+	padding:12px 43px 12px 15px;
+}
+
+.admania_featcatlist {
+	margin:1.5% 0 0 3.88%;
+}
+.admania_featuredcategory .admania_ftdcatwotimg {
+	margin:1.5% 0 2.8% 3.88%;
+}
+.admania_featcatlist:last-child {
+	margin:1.5% 0 0 0;
+}
+.admania_ftdcategorycontent {
+    left: auto;
+    right: 22%;
+}
+.admania_footerinstagramimg {
+	margin:0px -1px 0 -3px;
+}
+.widget-title-footer:after {
+	right:0;
+	left:auto;
+}
+.admania_footer1, .admania_footer2, .admania_footer3 {
+	margin:0 0 0 25px;
+}
+
+.admania_footer3 {
+	margin:0 0 0 0px;
+}
+.admania_sitefooterinner li a:before {
+	margin:0 0 0 3px;
+}
+.admania_sitefooter .admania_optin .admania_eicon {
+	float:right;
+}
+.admania_sitefooter .admania_optin input[type=submit] {
+	float:right;
+}
+.admania_sitefooter input[type=text] {
+	padding:12px 43px 15px 8px;
+}
+.admania_eicon:before {
+	right:20px;
+	left:auto;
+}
+.admania_top {
+	left:0;
+	right:auto;
+	margin:0 0 0 12px;
+}
+.admania_layout4postleft {
+	float:right;
+}
+.admania_layout4postright {
+	float:left;
+	padding:0 25px 0 0px;
+}
+.admania_layout4postrightleft {
+	float:right;
+	padding:0 0 0 25px;
+}
+.admania_lay4headerright {
+	text-align:left;
+}
+.admania_layout4postright2 {
+	float:left;
+}
+.admania_catentrymeta {
+	padding:7px 0 7px 14px;
+}
+.admania_frontendpanel {
+	right:28%;
+	left:auto;
+}
+.admania_lvedtoptinosstngslist .admania_lvedtimg_url {
+	float:right;
+}
+.admania_adeditablead1 {
+	left:0;
+	right:auto;
+}
+.admania_lvetresitem16, .admania_lvetresitem21 {
+	left:20px;
+	right:auto;
+}
+.admania_frontlveditorupdate .admania_lvedtsubmtpbtn {
+	float:right;
+}
+.admania_frtlvedtclsbtn {
+	float:left;
+	left:0;
+	right:auto;
+}
+.admania_shwoptionsad1 .admania_sitecontainer:before {
+	right:0;
+	left:0;
+}
+
+.admania_lay5headerleft{
+	float:right;
+	}
+.admania_lay5headerright{
+	float:left;
+	}
+.admania_lay5headerright ulli a{
+	padding:15px 15px 15px 0px;
+	}
+.admania_lay5_menu .menu li:first-child a{
+	padding:15px 0 15px 10px;
+	}
+.admania_headertoplayt5_bottom .admania_lay5headersearchouter{
+	right:0;
+	left:auto;
+	}
+.admania_layout5gridpst{
+	margin:0 0 3.5% 3.5%;
+	}
+.admanialayt5_entrymeta_ads{
+	right:0;
+	left:0;
+	}
+.admania_contentarea .admania_layout5gridpst:nth-child(2n+2),
+.admania_layout5post .admania_layout5gridpst:nth-child(2n+2){
+	margin:0 0 3.5% 0%;
+	}
+   .admania_layt5entrybyline img{
+	margin:3px 0 0 7px;
+	}
+	.admania_slidermetaby5 img {
+	margin:3px 7px 0 0;	
+	}
+.admania_layt5entrybyline img{
+	margin:5px 0 0 6px;
+	}
+.admania_headertoplayt5_bottom .admania_lay5_menu {
+    float: right !important;
+}
+.admania_lay5_menu .menu .sub-menu li a {
+    padding: 9px 10px !important;
+}
+
+@media screen and (max-width:1200px) {
+.admania_layout5gridpst {
+         margin: 0 0 3% 3%;
+        }
+}
+@media screen and (max-width:1023px) {
+.admania_lay2headerright .admania_submenutoggle {
+	left:10px;
+	right:auto;
+}
+
+.admania_lay2headerright {
+	float:left;
+	padding:28px 17px 0 0px;
+}
+.admania_lay2headerright .menu {
+	left:-65px;
+	right:auto;
+	text-align:right;
+}
+}
+@media screen and (max-width:990px) {
+	.admania_headertoplayt5_bottom .admania_menutoggle {
+    float: right; 
+}
+.admania_headertoplayt5_bottom .menu {
+    right: -19px;
+    left:auto;
+	text-align:right;
+}
+.admania_lay5_menu .menu li:first-child a {
+    padding: 11px 15px;
+}
+.admania_viewcnt {
+	padding:10px 0 0 0;
+}
+.admania_headermidlayt4 .admania_menutoggle:after {
+	padding: 0 10px 0px 0px;
+}
+.admania_lay3_menu .menu {
+	right:-51px;
+	left:auto;
+	text-align:right;
+}
+.admania_headertoplayt3 .admania_menutoggle {
+	float:right;
+}
+.admania_listpst .admania_entryftcontent {
+	padding:0px 0px 0 0;
+}
+.widget_admania_popular_post ul li {
+	margin:0 0 20px 0px;
+}
+.admania_headerinneralt {
+	text-align:right;
+}
+.admania_submenutoggle {
+	left:0;
+	right:auto;
+}
+.admania_secondarymenu .menu {
+	text-align:right;
+}
+.admania_menu .menu .sub-menu, .admania_secondarymenu .menu .sub-menu {
+	text-align:right;
+}
+.search-form input[type="submit"] {
+	left:0;
+	right:auto;
+}
+.admania_postoptionbox .admania_nicon, .admania_postoptionbox .admania_eicon {
+	margin:0 0 1em 0em;
+}
+.admania_gridpstlayt3 {
+	margin:0 0 2% 4%;
+}
+.admania_layout3post .admania_gridpstlayt3:nth-child(3n+3) {
+	margin:0 0 2% 4%;
+}
+.admania_layout3post .admania_gridpstlayt3:nth-child(2n+2) {
+	margin:0 0 2% 0%;
+}
+}
+@media screen and (max-width:780px) {
+.admania_viewcnt {
+	float:left;
+	padding:0px 0 0 0;
+}
+.widget_admania_popular_post ul li:nth-child(2n+1) {
+	padding:0 0 0 15px;
+}
+.admania_contentareainner, .admania_contentarea, .admania_primarycontentarea, .admania_secondarycontentarea {
+	padding:0 0 0 0px;
+}
+.admania_related_posts ul li {
+	margin:0 0 10px 15px;
+}
+.admania_postoptionbox .admania_nicon, .admania_postoptionbox .admania_eicon {
+	margin:0 0 0 1em;
+}
+}
+@media screen and (max-width:600px) {
+	
+.admania_viewcnt {
+	padding:0 7px 0 0px;
+}
+.admania_related_posts ul li {
+	margin:0 0 10px 0px;
+}
+.admania_featcatlist {
+	margin:0% 0 2% 0%;
+}
+.admania_featuredcategory .admania_ftdcatwotimg {
+	margin:0% 0 6% 0%;
+}
+.admania_featcatlist:last-child {
+	margin:0% 0 0% 0%;
+}
+.admania_ftdcategorycontent {
+	right:39%;
+	left:auto;
+}
+.admania_postoptionbox .admania_nicon, .admania_postoptionbox .admania_eicon {
+	margin:0 0 1.4em 1em;
+}
+.admania_widgetsocial a {
+	margin:0 0 19px 16px;
+}
+.admania_commentbox ul {
+	margin-right:2%;
+}
+.admania_lay2headerright {
+	padding:21px 17px 0 0px;
+}
+}
+@media screen and (max-width:489px) {
+.admania_headertoplayt3 .admania_headerinner {
+padding:0 0!important 0 15px;
+}
+.admania_gridpstlayt3 {
+	margin:0 0 2% 4%;
+}
+.admania_headertopalt .admania_headerinner {
+padding:0 0!important 0 7px;
+}
+.admania_ly2ftsection .admania_bly2featuredslider {
+	padding:0 0 20px 0px;
+}
+.admania_featuredcategory1 {
+	padding:16px 16px 0 0;
+}
+.widget_admania_popular_post ul li {
+	margin:0 0 20px 0px;
+}
+.widget_admania_popular_post ul li:nth-child(2n+1) {
+	padding:0 0 0 0px;
+}
+.admania_gridentry {
+	margin:0 0 25px 0px;
+}
+.admania_entrymetablne {
+	right:22px;
+	left:auto;
+}
+.admania_pgaftrnthprad {
+	margin:10px 0px 0px 0px !important;
+}
+.alignleft, .alignright, .aligncenter {
+	margin:0 0px 15px 0px !important;
+}
+.admania_postbtminnerad {
+	margin:0px 0 10px 0px;
+}
+.admania_layout3post .admania_gridpstlayt3:nth-child(3n+3) {
+	margin:0 0 2% 0%;
+}
+.admania_layout3post .admania_gridpstlayt3:nth-child(2n+2) {
+	margin:0 0 2% 0%;
+}
+}
+@media screen and (max-width:420px) {
+.admania_lay2headerright {
+	padding:14px 17px 0 0px;
+}
+}
+@media screen and (max-width:350px) {
+.admania_commentbox ul {
+	margin-right:0;
+}
+.admania_prenext .nav-previous {
+	border-left:0px solid #eee;
+}
+.admania_socialsharecount {
+	margin-right:0% !important;
+}
+}
